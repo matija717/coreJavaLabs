@@ -1,0 +1,6 @@
+
+X	java:S107-"<Method has 8 parameters, which is greater than 7 authorized.(í¦‘Å8ã™ÖÏ1
+S
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8¥„ÖëÏ1
+o
+java:S1128"MRemove this unused import 'hr.java.shop.bencic8.utils.FxDialogUtil.getAlert'.(€—õşÿÿÿÿ8¥„ÖëÏ1
