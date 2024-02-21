@@ -11,6 +11,7 @@
     <modules>
         <module>Bencic-1</module>
         <module>Bencic-6</module>
+        <module>Bencic-7</module>
     </modules>
 
     <properties>
