@@ -1,0 +1,9 @@
+PC
+1
+Komponente racunala
+Ostalo
+2
+Description
+Fruits
+3
+It is for eat

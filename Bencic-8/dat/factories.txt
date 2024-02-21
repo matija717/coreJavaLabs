@@ -1,0 +1,16 @@
+1
+Prva tvornica
+ZLATAR
+17,3,13,1,9,4,10
+2
+Druga tvornica
+ZAGREB
+17,3,13,1,9,4,10
+3
+DanasRadi
+SPLIT
+17,3,13,1,9,4,10
+4
+TvornicaIgracaka
+ZAGREB
+2,1
