@@ -1,0 +1,40 @@
+Zlatni kiwi
+976
+Fruits
+10
+20
+3
+50
+150
+0
+5
+Zeleni kiwi
+979
+Fruits
+10
+20
+3
+50
+150
+0
+5
+Crveni kiwi
+999
+Fruits
+10
+20
+3
+50
+150
+0
+5
+Tropski kiwi
+1134
+Fruits
+10
+20
+3
+50
+150
+0
+5

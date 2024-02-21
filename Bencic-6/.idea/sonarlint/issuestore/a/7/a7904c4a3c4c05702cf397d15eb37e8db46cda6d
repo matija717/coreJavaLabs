@@ -1,0 +1,25 @@
+
+h	java:S112¨"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ8ªçÁÑÄ1
+c	java:S112¤"FDefine and throw a dedicated exception instead of using a generic one.(¹ì™¶8«çÁÑÄ1
+L	java:S106M"+Replace this use of System.out by a logger.(ı™øøÿÿÿÿ8’êÁÑÄ1
+G	java:S106R"+Replace this use of System.out by a logger.(•Çƒñ8“êÁÑÄ1
+L	java:S106V"+Replace this use of System.out by a logger.(ÖÌ§±øÿÿÿÿ8•êÁÑÄ1
+F	java:S106g"+Replace this use of System.out by a logger.(£ÖƒR8êÁÑÄ1
+G	java:S106j"+Replace this use of System.out by a logger.(›¿ÖÕ8êÁÑÄ1
+X	java:S125i"<This block of commented-out lines of code should be removed.(¨Šâ‹8ŸêÁÑÄ1
+G	java:S106o"+Replace this use of System.out by a logger.(‹¼²Å8 êÁÑÄ1
+L	java:S106q"+Replace this use of System.out by a logger.(ı™øøÿÿÿÿ8¡êÁÑÄ1
+G	java:S106s"+Replace this use of System.out by a logger.(•Çƒñ8¡êÁÑÄ1
+M	java:S106±"+Replace this use of System.out by a logger.(şÓşõıÿÿÿÿ8ÜêÁÑÄ1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(×Ó·‡8ƒëÁÑÄ1
+b
+java:S1854•"?Remove this useless assignment to local variable "sortedItems".(ÚÔŸáÿÿÿÿÿ8‡ëÁÑÄ1
+S
+java:S1481•"0Remove this unused "sortedItems" local variable.(ÚÔŸáÿÿÿÿÿ8ŠëÁÑÄ1
+H	java:S106—"+Replace this use of System.out by a logger.(×úöÑ8‹ëÁÑÄ1
+H	java:S106¡"+Replace this use of System.out by a logger.(¸ Ù…8ëÁÑÄ1
+H	java:S106°"+Replace this use of System.out by a logger.(ÆÀûı8•ëÁÑÄ1
+H	java:S106¶"+Replace this use of System.out by a logger.(Õı¹ 8™ëÁÑÄ1
+M	java:S106×"+Replace this use of System.out by a logger.(» ôëÿÿÿÿÿ8¦ëÁÑÄ1
+Y
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8ëÕÆÑÄ1

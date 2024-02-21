@@ -1,0 +1,20 @@
+Prva ocjena
+988
+4
+Vrlo dobar
+Druga ocjena
+133
+3
+Dobar
+Treca ocjena
+443
+2
+Dovoljno dobar
+Cetvrta ocjena
+976
+5
+Odlican
+Peta ocjena
+988
+5
+Odlican

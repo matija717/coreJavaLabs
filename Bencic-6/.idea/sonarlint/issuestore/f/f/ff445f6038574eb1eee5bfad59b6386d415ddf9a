@@ -1,0 +1,9 @@
+
+q	java:S116
+"\Rename this field "CALORIES_PER_KILO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã∆®‰
+7
+java:S1170
+"!Make this final field static too.(ã∆®‰
+H
+java:S2160	"+Override the "equals" method in this class.(óßó˛8«Ã’÷√1
+^	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(åæﬂ°8ÀÃ’÷√1

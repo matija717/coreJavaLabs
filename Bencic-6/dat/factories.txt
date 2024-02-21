@@ -1,0 +1,8 @@
+1
+Prva tvornica
+ZLATAR
+1,4,7,5
+2
+Druga tvornica
+ZAGREB
+4,5,8,9
