@@ -10,8 +10,13 @@ import static production.util.InputMethodsUtil.itemPicker;
 
 public class CartUtil {
     public static void cartPrint(Cart[] carts) {
-
-
+        for (Cart cart : carts) {
+            System.out.println(cart.getCartName());
+            System.out.println("Items:");
+            for (int i = 0; i < cart.getBoughtStuff().length; i++) {
+                System.out.println(cart.getBoughtStuff()[i].getName() + " ");
+            }
+        }
     }
 
     public static Cart[] cartsInput(Scanner scanner, Item[] items) {
@@ -21,20 +26,24 @@ public class CartUtil {
         Cart[] carts = new Cart[numberOfCarts];
 
         for (int i = 0; i < carts.length; i++) {
+            System.out.println("Input cart name:");
+            String name = scanner.nextLine();
             LocalDateTime timeOfBuying = LocalDateTime.now();
             System.out.print("Insert number of Items for cart");
             int cartItemsNumber = scanner.nextInt();
             scanner.nextLine();
             Item[] cartItems = new Item[cartItemsNumber];
-            Cart cart = new Cart(itemPicker(items, cartItems, scanner), timeOfBuying);
+            Cart cart = new Cart(name, itemPicker(items, cartItems, scanner), timeOfBuying);
             carts[i] = cart;
 
         }
-        System.out.println("Is that all or you want to remove something");
-        carts = cartEditor(carts, scanner);
-
-
-        return carts;
+        System.out.print("Is that all or you want to remove something(input 0 for edit):");
+        if(scanner.nextLine().equals("0")){
+            return cartEditor(carts, scanner);
+        }
+        else {
+            return carts;
+        }
     }
 
     private static Cart[] cartEditor(Cart[] carts, Scanner scanner) {

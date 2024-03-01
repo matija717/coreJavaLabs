@@ -8,6 +8,6 @@ public class CheckerMethodUtil {
     }
 
     public static boolean integerChecker(Integer input, Integer maxNumber) {
-        return !(input > 0 && input <= maxNumber);
+        return !(input >= 0 && input <= maxNumber);
     }
 }

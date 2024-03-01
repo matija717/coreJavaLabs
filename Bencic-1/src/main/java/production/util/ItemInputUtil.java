@@ -4,8 +4,6 @@ import production.model.Category;
 import production.model.Item;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 import static production.util.CheckerMethodUtil.bigDecimalChecker;
@@ -13,16 +11,15 @@ import static production.util.CheckerMethodUtil.integerChecker;
 
 public class ItemInputUtil {
     private static final Integer NUMBER_OF_ITEMS = 2;
-    private static final DateTimeFormatter dateShape = DateTimeFormatter.ofPattern("dd-MM-yyyy-HH:mm:ss");
+
+
     public static Item[] itemsInput(Scanner scanner, Category[] categories) {
         System.out.println("Items input!");
         Item[] items = new Item[NUMBER_OF_ITEMS];
         System.out.println("Type date and time of buying:");
-        LocalDateTime timeOfBuying = LocalDateTime.now();
         for (int i = 0; i < items.length; i++) {
             System.out.println((i + 1) + ". item");
             items[i] = singleItemInput(scanner, categories);
-            System.out.println("Item added to cart");
         }
         return items;
     }
