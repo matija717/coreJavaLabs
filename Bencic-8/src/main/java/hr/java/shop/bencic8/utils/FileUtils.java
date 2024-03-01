@@ -22,7 +22,7 @@ public class FileUtils {
     public static List<BuyData> readBoughts(){
         List<BuyData> buyDataList=new ArrayList<>();
         List<Item> allItems=allItems();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/invoice.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/invoice.txt"))) {
             String line;
             List<Item> itemsList = new ArrayList<>();
             while ((line = bufferedReader.readLine()) != null) {
@@ -41,7 +41,7 @@ public class FileUtils {
         return buyDataList;
     }
     public static void saveItemsToDat(List<BuyData> boughts){
-        try (PrintWriter pw = new PrintWriter(new FileWriter("dat/invoice.txt"))) {
+        try (PrintWriter pw = new PrintWriter(new FileWriter("Bencic-8/dat/invoice.txt"))) {
             for (BuyData b : boughts) {
                 pw.println(b.getName());
                 pw.println(b.getId());
@@ -64,7 +64,7 @@ public class FileUtils {
     public static List<Store> storesInput() {
         List<Store> stores = new ArrayList<>();
         List<Item> items = allItems();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/stores.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/stores.txt"))) {
             String line;
             Set<Item> storeItems = new HashSet<>();
             while ((line = bufferedReader.readLine()) != null) {

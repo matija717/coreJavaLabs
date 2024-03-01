@@ -17,7 +17,7 @@ import java.util.*;
         List<Factory> factoryList = new ArrayList<>();
 
 
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/factories.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/factories.txt"))) {
             String line;
 
             Set<Item> factoryItems = new HashSet<>();
@@ -52,7 +52,7 @@ import java.util.*;
 
     protected static List<Laptop> readLaptops() {
         List<Laptop> laptops = new ArrayList<>();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/laptops.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/laptops.txt"))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 Item laptop = readOneItemData(bufferedReader, line);
@@ -78,7 +78,7 @@ import java.util.*;
 
     protected static List<Banana> readBananas() {
         List<Banana> bananas = new ArrayList<>();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/bananas.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/bananas.txt"))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 Item banana = readOneItemData(bufferedReader, line);
@@ -128,7 +128,7 @@ import java.util.*;
 
     protected static List<Item> readItems() throws FileErrorException {
         List<Item> items = new ArrayList<>();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/items.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/items.txt"))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 items.add(readOneItemData(bufferedReader, line));
@@ -141,7 +141,7 @@ import java.util.*;
 
     protected static List<Kiwi> readKiwis() {
         List<Kiwi> kiwis = new ArrayList<>();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/kiwis.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/kiwis.txt"))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 Item banana = readOneItemData(bufferedReader, line);
@@ -167,7 +167,7 @@ import java.util.*;
 
     protected static List<Category> readCategories() throws FileErrorException {
         List<Category> categories = new ArrayList<>();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("dat/categories.txt"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("Bencic-8/dat/categories.txt"))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 Long id = Long.parseLong(bufferedReader.readLine());
