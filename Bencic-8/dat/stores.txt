@@ -1,0 +1,12 @@
+Store one
+1
+www.storeone.com
+4,9,2,3,15,17,1,16
+Store two
+2
+www.storetwo.hr
+4,9,2,3,15,17,1,16
+StoreTRijed
+3
+wwwwww
+2,4
