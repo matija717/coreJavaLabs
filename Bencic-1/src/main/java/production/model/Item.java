@@ -21,6 +21,10 @@ public class Item {
         this.sellingPrice = sellingPrice;
     }
 
+    public BigDecimal volumeOfItemCalculation(Item item) {
+        return item.getHeight().multiply(item.getLength().multiply(item.getWidth()));
+    }
+
     public String getName() {
         return name;
     }
