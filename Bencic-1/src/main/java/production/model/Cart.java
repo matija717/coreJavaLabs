@@ -3,11 +3,12 @@ package production.model;
 import java.time.LocalDateTime;
 
 public class Cart {
+    private String cartName;
     private Item[]  boughtStuff;
     private LocalDateTime timeOfBuying;
 
-    public Cart(Item[] boughtStuff, LocalDateTime timeOfBuying) {
-
+    public Cart(String cartName,Item[] boughtStuff, LocalDateTime timeOfBuying) {
+        this.cartName=cartName;
         this.boughtStuff = boughtStuff;
         this.timeOfBuying = timeOfBuying;
     }
@@ -26,5 +27,13 @@ public class Cart {
 
     public void setTimeOfBuying(LocalDateTime timeOfBuying) {
         this.timeOfBuying = timeOfBuying;
+    }
+
+    public String getCartName() {
+        return cartName;
+    }
+
+    public void setCartName(String cartName) {
+        this.cartName = cartName;
     }
 }
