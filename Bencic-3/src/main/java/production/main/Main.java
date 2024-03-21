@@ -40,6 +40,5 @@ public class Main {
         Item biggestItem = findBiggestItem(factories);
         writeInConsoleWithLogger("Article with biggest volume is " + biggestItem.getName());
         writeInConsoleWithLogger("Article with cheapest price is " + cheapestItem.getName());
-        
     }
 }
