@@ -1,0 +1,790 @@
+2023-11-04 10:00:00,667 INFO [main] h.j.p.m.Main [Main.java:31] Program startup
+2023-11-04 10:00:00,686 INFO [main] h.j.p.m.Main [Main.java:658] User is writing categories input
+2023-11-04 10:00:00,688 INFO [main] h.j.p.m.Main [Main.java:666] Category input
+2023-11-04 10:00:12,618 INFO [main] h.j.p.m.Main [Main.java:666] Category input
+2023-11-04 10:00:13,131 INFO [main] h.j.p.m.Main [Main.java:700] Now checking for same name error
+2023-11-04 10:00:13,131 INFO [main] h.j.p.m.Main [Main.java:676] User input same nameSame name input!
+Please try again!
+2023-11-04 10:00:13,132 INFO [main] h.j.p.m.Main [Main.java:666] Category input
+2023-11-04 10:00:16,553 INFO [main] h.j.p.m.Main [Main.java:700] Now checking for same name error
+2023-11-04 10:00:18,746 INFO [main] h.j.p.m.Main [Main.java:666] Category input
+2023-11-04 10:00:19,833 INFO [main] h.j.p.m.Main [Main.java:700] Now checking for same name error
+2023-11-04 10:00:20,650 INFO [main] h.j.p.m.Main [Main.java:686] Categories input done!
+2023-11-04 10:00:20,651 INFO [main] h.j.p.m.Main [Main.java:198] User is now picking items
+2023-11-04 10:00:20,651 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:00:24,219 ERROR [main] h.j.p.m.Main [Main.java:267] Wrong number input!
+2023-11-04 10:00:28,810 ERROR [main] h.j.p.m.Main [Main.java:271] Wrong data input!
+2023-11-04 10:00:32,506 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:00:33,018 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:00:33,866 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:00:34,619 INFO [main] h.j.p.m.Main [Main.java:289] Input of normal items
+2023-11-04 10:00:34,621 INFO [main] h.j.p.m.Main [Main.java:583] Input item!
+2023-11-04 10:00:36,557 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:00:38,539 ERROR [main] h.j.p.m.Main [Main.java:267] Wrong number input!
+2023-11-04 10:00:50,908 INFO [main] h.j.p.m.Main [Main.java:583] Input item!
+2023-11-04 10:00:53,291 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:00:58,394 INFO [main] h.j.p.m.Main [Main.java:539] Store input!
+2023-11-04 10:00:58,395 INFO [main] h.j.p.m.Main [Main.java:560] Data for store!
+2023-11-04 10:01:01,162 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:01:04,266 INFO [main] h.j.p.m.Main [Main.java:463] Choosing items for store!
+2023-11-04 10:01:04,269 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:01:06,474 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:01:09,690 ERROR [main] h.j.p.m.Main [Main.java:483] Same item pickedYou picked same item!
+Please try to pick different item!
+2023-11-04 10:01:09,691 INFO [main] h.j.p.m.Main [Main.java:254] Checking if input integer is right and in range
+2023-11-04 10:01:15,098 INFO [main] h.j.p.m.Main [Main.java:560] Data for store!
+2023-11-04 10:27:58,260 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:27:58,277 INFO [main] h.j.p.m.Main [Main.java:681] User is writing categories input
+2023-11-04 10:27:58,278 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:28:04,348 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:28:49,259 INFO [main] h.j.p.m.Main [Main.java:746] Now checking for same name error
+2023-11-04 10:28:49,259 INFO [main] h.j.p.m.Main [Main.java:699] User input same nameSame name input!
+Please try again!
+2023-11-04 10:28:49,259 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:29:58,900 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:29:58,916 INFO [main] h.j.p.m.Main [Main.java:681] User is writing categories input
+2023-11-04 10:29:58,917 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:30:20,491 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:30:21,899 INFO [main] h.j.p.m.Main [Main.java:746] Now checking for same name error
+2023-11-04 10:30:23,851 ERROR [main] h.j.p.m.Main [Main.java:729] Same description input error
+2023-11-04 10:30:44,827 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:30:44,844 INFO [main] h.j.p.m.Main [Main.java:681] User is writing categories input
+2023-11-04 10:30:44,845 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:31:35,104 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:31:35,121 INFO [main] h.j.p.m.Main [Main.java:681] User is writing categories input
+2023-11-04 10:31:35,122 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:33:12,558 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:33:12,576 INFO [main] h.j.p.m.Main [Main.java:681] User is writing categories input
+2023-11-04 10:33:12,577 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:33:16,762 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:33:20,202 INFO [main] h.j.p.m.Main [Main.java:747] Now checking for same name error
+2023-11-04 10:33:20,202 INFO [main] h.j.p.m.Main [Main.java:699] User input same nameSame name input!
+Please try again!
+2023-11-04 10:33:20,203 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:33:22,778 INFO [main] h.j.p.m.Main [Main.java:747] Now checking for same name error
+2023-11-04 10:33:23,611 ERROR [main] h.j.p.m.Main [Main.java:730] Same description input error
+2023-11-04 10:35:55,382 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:35:55,458 INFO [main] h.j.p.m.Main [Main.java:681] User is writing categories input
+2023-11-04 10:35:55,460 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:36:46,638 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:36:46,654 INFO [main] h.j.p.m.Main [Main.java:681] User is writing categories input
+2023-11-04 10:36:46,654 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:36:49,114 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:36:51,210 INFO [main] h.j.p.m.Main [Main.java:746] Now checking for same name error
+2023-11-04 10:36:51,211 INFO [main] h.j.p.m.Main [Main.java:699] User input same nameSame name input!
+Please try again!
+2023-11-04 10:36:51,211 INFO [main] h.j.p.m.Main [Main.java:689] Category input
+2023-11-04 10:36:53,370 INFO [main] h.j.p.m.Main [Main.java:746] Now checking for same name error
+2023-11-04 10:36:54,459 ERROR [main] h.j.p.m.Main [Main.java:729] Same description input error
+2023-11-04 10:38:02,198 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:38:02,216 INFO [main] h.j.p.m.Main [Main.java:682] User is writing categories input
+2023-11-04 10:38:02,217 INFO [main] h.j.p.m.Main [Main.java:690] Category input
+2023-11-04 10:38:04,025 INFO [main] h.j.p.m.Main [Main.java:690] Category input
+2023-11-04 10:38:04,537 INFO [main] h.j.p.m.Main [Main.java:748] Now checking for same name error
+2023-11-04 10:38:05,113 INFO [main] h.j.p.m.Main [Main.java:690] Category input
+2023-11-04 10:38:05,721 INFO [main] h.j.p.m.Main [Main.java:748] Now checking for same name error
+2023-11-04 10:38:06,376 INFO [main] h.j.p.m.Main [Main.java:724] Categories input done!
+2023-11-04 10:38:06,376 INFO [main] h.j.p.m.Main [Main.java:199] User is now picking items
+2023-11-04 10:38:06,376 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:38:07,848 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:38:08,600 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:38:10,169 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:38:10,680 INFO [main] h.j.p.m.Main [Main.java:290] Input of normal items
+2023-11-04 10:38:10,681 INFO [main] h.j.p.m.Main [Main.java:605] Input item!
+2023-11-04 10:38:14,157 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:38:18,810 INFO [main] h.j.p.m.Main [Main.java:605] Input item!
+2023-11-04 10:38:21,800 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:40:24,688 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:40:24,704 INFO [main] h.j.p.m.Main [Main.java:683] User is writing categories input
+2023-11-04 10:40:24,705 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:40:30,277 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:40:30,742 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:40:30,742 INFO [main] h.j.p.m.Main [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 10:40:30,743 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:40:31,765 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:40:31,766 INFO [main] h.j.p.m.Main [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 10:40:31,766 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:40:34,966 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:40:35,814 ERROR [main] h.j.p.m.Main [Main.java:732] Same description input error
+2023-11-04 10:40:35,814 ERROR [main] h.j.p.m.Main [Main.java:717] Same description error
+Please try again!
+2023-11-04 10:40:39,061 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:40:41,174 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:40:45,126 INFO [main] h.j.p.m.Main [Main.java:725] Categories input done!
+2023-11-04 10:40:45,126 INFO [main] h.j.p.m.Main [Main.java:199] User is now picking items
+2023-11-04 10:40:45,127 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:40:46,533 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:40:46,965 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:40:47,734 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:40:48,165 INFO [main] h.j.p.m.Main [Main.java:290] Input of normal items
+2023-11-04 10:40:48,166 INFO [main] h.j.p.m.Main [Main.java:606] Input item!
+2023-11-04 10:40:50,906 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:40:58,246 INFO [main] h.j.p.m.Main [Main.java:606] Input item!
+2023-11-04 10:41:02,420 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:42:49,631 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:42:49,648 INFO [main] h.j.p.m.Main [Main.java:683] User is writing categories input
+2023-11-04 10:42:49,649 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:42:51,861 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:42:52,644 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:42:53,108 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:42:54,004 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:42:54,548 INFO [main] h.j.p.m.Main [Main.java:725] Categories input done!
+2023-11-04 10:42:54,549 INFO [main] h.j.p.m.Main [Main.java:199] User is now picking items
+2023-11-04 10:42:54,549 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:42:55,828 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:42:56,196 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:42:56,932 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:42:57,428 INFO [main] h.j.p.m.Main [Main.java:290] Input of normal items
+2023-11-04 10:42:57,429 INFO [main] h.j.p.m.Main [Main.java:606] Input item!
+2023-11-04 10:42:58,889 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:43:02,150 INFO [main] h.j.p.m.Main [Main.java:606] Input item!
+2023-11-04 10:43:04,291 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:44:10,438 INFO [main] h.j.p.m.Main [Main.java:32] Program startup
+2023-11-04 10:44:10,455 INFO [main] h.j.p.m.Main [Main.java:683] User is writing categories input
+2023-11-04 10:44:10,456 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:44:13,860 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:44:14,660 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:44:15,108 INFO [main] h.j.p.m.Main [Main.java:691] Category input
+2023-11-04 10:44:15,716 INFO [main] h.j.p.m.Main [Main.java:749] Now checking for same name error
+2023-11-04 10:44:16,116 INFO [main] h.j.p.m.Main [Main.java:725] Categories input done!
+2023-11-04 10:44:16,116 INFO [main] h.j.p.m.Main [Main.java:199] User is now picking items
+2023-11-04 10:44:16,116 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:44:17,493 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:44:17,924 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:44:21,076 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:44:22,036 INFO [main] h.j.p.m.Main [Main.java:290] Input of normal items
+2023-11-04 10:44:22,622 INFO [main] h.j.p.m.Main [Main.java:606] Input item!
+2023-11-04 10:44:43,033 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:44:47,237 INFO [main] h.j.p.m.Main [Main.java:606] Input item!
+2023-11-04 10:44:49,636 INFO [main] h.j.p.m.Main [Main.java:255] Checking if input integer is right and in range
+2023-11-04 10:45:03,540 ERROR [main] h.j.p.m.Main [Main.java:305] Same item name error!
+Please try again with different name
+2023-11-04 10:45:05,188 ERROR [main] h.j.p.m.Main [Main.java:305] Same item name error!
+Please try again with different name
+2023-11-04 10:45:06,340 ERROR [main] h.j.p.m.Main [Main.java:305] Same item name error!
+Please try again with different name
+2023-11-04 10:45:07,571 ERROR [main] h.j.p.m.Main [Main.java:305] Same item name error!
+Please try again with different name
+2023-11-04 10:45:07,571 INFO [main] h.j.p.m.Main [Main.java:562] Store input!
+2023-11-04 10:45:07,572 INFO [main] h.j.p.m.Main [Main.java:583] Data for store!
+2023-11-04 11:03:40,866  [main]  [Main.java:32] Program startup
+2023-11-04 11:03:40,883  [main]  [Main.java:683] User is writing categories input
+2023-11-04 11:03:40,894  [main]  [Main.java:691] Category input
+2023-11-04 11:03:42,720  [main]  [Main.java:691] Category input
+2023-11-04 11:03:43,200  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:03:43,200  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:03:43,201  [main]  [Main.java:691] Category input
+2023-11-04 11:03:43,568  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:03:43,568  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:03:43,568  [main]  [Main.java:691] Category input
+2023-11-04 11:03:43,920  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:03:43,920  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:03:43,921  [main]  [Main.java:691] Category input
+2023-11-04 11:03:44,159  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:03:44,159  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:03:44,160  [main]  [Main.java:691] Category input
+2023-11-04 11:03:44,400  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:03:44,400  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:03:44,401  [main]  [Main.java:691] Category input
+2023-11-04 11:03:44,656  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:03:44,880  [main]  [Main.java:732] Same description input error
+2023-11-04 11:03:44,880  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:03:45,119  [main]  [Main.java:732] Same description input error
+2023-11-04 11:03:45,119  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:03:45,375  [main]  [Main.java:691] Category input
+2023-11-04 11:04:22,769 INFO  [main]  [Main.java:32] Program startup
+2023-11-04 11:04:22,786 INFO  [main]  [Main.java:683] User is writing categories input
+2023-11-04 11:04:22,787 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:26,848 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:27,248 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:27,249 INFO  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:04:27,249 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:27,615 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:27,615 INFO  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:04:27,615 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:28,640 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:28,640 INFO  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:04:28,640 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:28,991 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:28,991 INFO  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:04:28,991 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:29,247 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:29,247 INFO  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:04:29,247 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:29,472 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:29,472 INFO  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:04:29,472 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:29,696 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:29,696 INFO  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:04:29,696 INFO  [main]  [Main.java:691] Category input
+2023-11-04 11:04:29,935 INFO  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:04:30,273 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:30,273 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:30,528 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:30,528 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:30,751 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:30,752 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:31,007 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:31,008 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:31,263 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:31,264 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:31,520 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:31,520 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:31,728 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:31,728 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:31,999 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:31,999 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:32,224 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:32,225 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:32,464 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:32,465 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:32,687 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:32,687 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:32,912 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:32,913 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:33,120 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:33,120 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:33,296 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:33,296 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:04:33,520 ERROR  [main]  [Main.java:732] Same description input error
+2023-11-04 11:04:33,520 ERROR  [main]  [Main.java:717] Same description error
+Please try again!
+2023-11-04 11:05:35,634 INFO [main] Program startup
+2023-11-04 11:05:35,650 INFO [main] User is writing categories input
+2023-11-04 11:05:35,651 INFO [main] Category input
+2023-11-04 11:05:38,143 INFO [main] Category input
+2023-11-04 11:05:38,353 INFO [main] Now checking for same name error
+2023-11-04 11:05:38,353 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:38,353 INFO [main] Category input
+2023-11-04 11:05:38,544 INFO [main] Now checking for same name error
+2023-11-04 11:05:38,544 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:38,544 INFO [main] Category input
+2023-11-04 11:05:38,799 INFO [main] Now checking for same name error
+2023-11-04 11:05:38,799 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:38,799 INFO [main] Category input
+2023-11-04 11:05:39,040 INFO [main] Now checking for same name error
+2023-11-04 11:05:39,040 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:39,040 INFO [main] Category input
+2023-11-04 11:05:39,279 INFO [main] Now checking for same name error
+2023-11-04 11:05:39,279 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:39,279 INFO [main] Category input
+2023-11-04 11:05:39,503 INFO [main] Now checking for same name error
+2023-11-04 11:05:39,504 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:39,504 INFO [main] Category input
+2023-11-04 11:05:39,743 INFO [main] Now checking for same name error
+2023-11-04 11:05:39,743 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:39,743 INFO [main] Category input
+2023-11-04 11:05:39,968 INFO [main] Now checking for same name error
+2023-11-04 11:05:39,968 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:39,968 INFO [main] Category input
+2023-11-04 11:05:40,175 INFO [main] Now checking for same name error
+2023-11-04 11:05:40,176 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:40,176 INFO [main] Category input
+2023-11-04 11:05:40,415 INFO [main] Now checking for same name error
+2023-11-04 11:05:40,416 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:40,416 INFO [main] Category input
+2023-11-04 11:05:40,639 INFO [main] Now checking for same name error
+2023-11-04 11:05:40,639 INFO [main] User input same nameSame name input!
+Please try again!
+2023-11-04 11:05:40,639 INFO [main] Category input
+2023-11-04 11:07:23,330 [INFO ]  [main]  [Main.java:32] Program startup
+2023-11-04 11:07:23,346 [INFO ]  [main]  [Main.java:683] User is writing categories input
+2023-11-04 11:07:23,347 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:24,414 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:24,590 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:24,591 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:24,591 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:24,751 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:24,751 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:24,751 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:24,926 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:24,927 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:24,927 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:25,086 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:25,087 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:25,087 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:25,249 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:25,249 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:25,249 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:25,423 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:25,423 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:25,423 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:25,583 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:25,584 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:25,584 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:25,742 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:25,742 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:25,742 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:25,903 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:25,904 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:25,904 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:26,078 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:26,078 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:26,078 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:07:26,224 [INFO ]  [main]  [Main.java:749] Now checking for same name error
+2023-11-04 11:07:26,225 [INFO ]  [main]  [Main.java:701] User input same nameSame name input!
+Please try again!
+2023-11-04 11:07:26,225 [INFO ]  [main]  [Main.java:691] Category input
+2023-11-04 11:08:21,804 INFO Program startup
+2023-11-04 11:08:21,820 INFO User is writing categories input
+2023-11-04 11:08:21,821 INFO Category input
+2023-11-04 11:08:23,279 INFO Category input
+2023-11-04 11:08:23,456 INFO Now checking for same name error
+2023-11-04 11:08:23,456 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:08:23,456 INFO Category input
+2023-11-04 11:08:23,663 INFO Now checking for same name error
+2023-11-04 11:08:23,663 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:08:23,663 INFO Category input
+2023-11-04 11:08:23,936 INFO Now checking for same name error
+2023-11-04 11:08:24,127 ERROR Same description input error
+2023-11-04 11:08:24,127 ERROR Same description error
+Please try again!
+2023-11-04 11:08:24,303 ERROR Same description input error
+2023-11-04 11:08:24,303 ERROR Same description error
+Please try again!
+2023-11-04 11:08:24,591 INFO Category input
+2023-11-04 11:10:44,912[YYYY:MM:dd,HH:mm:ss] INFO Program startup
+2023-11-04 11:10:44,927[YYYY:MM:dd,HH:mm:ss] INFO User is writing categories input
+2023-11-04 11:10:44,928[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:46,271[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:46,429[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:46,430[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:46,430[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:46,591[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:46,591[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:46,591[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:46,767[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:46,767[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:46,767[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:46,943[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:46,943[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:46,944[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:47,119[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:47,119[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:47,119[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:47,294[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:47,294[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:47,294[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:47,439[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:47,440[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:47,440[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:47,614[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:47,614[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:47,615[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:47,775[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:47,775[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:47,775[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:47,952[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:47,952[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:47,952[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:48,127[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:48,127[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:48,128[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:48,304[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:48,304[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:48,304[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:10:48,464[YYYY:MM:dd,HH:mm:ss] INFO Now checking for same name error
+2023-11-04 11:10:48,464[YYYY:MM:dd,HH:mm:ss] INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:10:48,464[YYYY:MM:dd,HH:mm:ss] INFO Category input
+2023-11-04 11:11:27,043 INFO Program startup
+2023-11-04 11:11:27,060 INFO User is writing categories input
+2023-11-04 11:11:27,061 INFO Category input
+2023-11-04 11:11:28,767 INFO Category input
+2023-11-04 11:11:28,943 INFO Now checking for same name error
+2023-11-04 11:11:28,944 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:28,944 INFO Category input
+2023-11-04 11:11:29,119 INFO Now checking for same name error
+2023-11-04 11:11:29,119 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:29,119 INFO Category input
+2023-11-04 11:11:29,311 INFO Now checking for same name error
+2023-11-04 11:11:29,311 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:29,311 INFO Category input
+2023-11-04 11:11:29,487 INFO Now checking for same name error
+2023-11-04 11:11:29,487 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:29,487 INFO Category input
+2023-11-04 11:11:29,695 INFO Now checking for same name error
+2023-11-04 11:11:29,696 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:29,696 INFO Category input
+2023-11-04 11:11:29,887 INFO Now checking for same name error
+2023-11-04 11:11:29,887 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:29,887 INFO Category input
+2023-11-04 11:11:30,095 INFO Now checking for same name error
+2023-11-04 11:11:30,095 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:30,095 INFO Category input
+2023-11-04 11:11:30,303 INFO Now checking for same name error
+2023-11-04 11:11:30,303 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:30,304 INFO Category input
+2023-11-04 11:11:30,511 INFO Now checking for same name error
+2023-11-04 11:11:30,511 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:30,511 INFO Category input
+2023-11-04 11:11:30,735 INFO Now checking for same name error
+2023-11-04 11:11:30,735 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:30,735 INFO Category input
+2023-11-04 11:11:30,927 INFO Now checking for same name error
+2023-11-04 11:11:30,928 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:30,928 INFO Category input
+2023-11-04 11:11:31,151 INFO Now checking for same name error
+2023-11-04 11:11:31,151 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:31,151 INFO Category input
+2023-11-04 11:11:31,343 INFO Now checking for same name error
+2023-11-04 11:11:31,344 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:31,344 INFO Category input
+2023-11-04 11:11:31,551 INFO Now checking for same name error
+2023-11-04 11:11:31,551 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:31,551 INFO Category input
+2023-11-04 11:11:31,759 INFO Now checking for same name error
+2023-11-04 11:11:31,759 INFO User input same nameSame name input!
+Please try again!
+2023-11-04 11:11:31,759 INFO Category input
+2023-11-04 11:11:53,840 INFO Now checking for same name error
+2023-11-04 11:11:56,238 ERROR Same description input error
+2023-11-04 11:11:56,238 ERROR Same description error
+Please try again!
+2024-03-05 17:50:22,809 INFO Program startup
+2024-03-05 17:50:22,836 INFO User is writing categories input
+2024-03-05 17:50:22,841 INFO Category input
+2024-03-11 18:16:55,028 ERROR Program startup
+2024-03-11 18:16:55,092 ERROR User is writing categories input
+2024-03-11 18:16:55,092 INFO Categories input!
+
+2024-03-11 18:16:55,108 INFO 1.category
+2024-03-11 18:16:55,111 INFO Category input
+2024-03-11 18:16:55,111 INFO Name:
+2024-03-11 18:22:48,970 ERROR Program startup
+2024-03-11 18:22:48,970 ERROR Program startup
+2024-03-11 18:22:49,026 ERROR User is writing categories input
+2024-03-11 18:22:49,026 ERROR User is writing categories input
+2024-03-11 18:22:49,028 INFO Categories input!
+
+2024-03-11 18:22:49,028 INFO Categories input!
+
+2024-03-11 18:22:49,035 INFO 1.category
+2024-03-11 18:22:49,035 INFO 1.category
+2024-03-11 18:22:49,035 INFO Category input
+2024-03-11 18:22:49,035 INFO Category input
+2024-03-11 18:22:49,036 INFO Name:
+2024-03-11 18:22:49,036 INFO Name:
+2024-03-15 16:27:13,182 ERROR Program startup
+2024-03-15 16:27:13,182 ERROR Program startup
+2024-03-15 16:27:13,253 ERROR User is writing categories input
+2024-03-15 16:27:13,253 ERROR User is writing categories input
+2024-03-15 16:27:13,254 INFO Categories input!
+
+2024-03-15 16:27:13,254 INFO Categories input!
+
+2024-03-15 16:27:13,281 INFO 1.category
+2024-03-15 16:27:13,281 INFO 1.category
+2024-03-15 16:27:13,281 INFO Category input
+2024-03-15 16:27:13,281 INFO Category input
+2024-03-15 16:27:13,281 INFO Name:
+2024-03-15 16:27:13,281 INFO Name:
+2024-03-15 16:30:58,527 ERROR Program startup
+2024-03-15 16:30:58,527 ERROR Program startup
+2024-03-15 16:30:58,571 ERROR User is writing categories input
+2024-03-15 16:30:58,571 ERROR User is writing categories input
+2024-03-15 16:33:12,285 ERROR Program startup
+2024-03-15 16:33:12,340 ERROR User is writing categories input
+2024-03-15 16:33:12,340 INFO Categories input!
+
+2024-03-15 16:33:12,342 INFO 1.category
+2024-03-15 16:33:12,342 INFO Category input
+2024-03-15 16:33:12,342 INFO Name:
+2024-03-15 16:35:29,743 ERROR Program startup
+2024-03-15 16:35:29,781 ERROR User is writing categories input
+2024-03-15 16:35:29,782 INFO Categories input!
+
+2024-03-15 16:35:29,783 INFO 1.category
+2024-03-15 16:35:29,784 INFO Category input
+2024-03-15 16:35:29,784 INFO Name:
+2024-03-15 16:40:32,251 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 16:40:32,284 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 16:40:32,285 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 16:40:32,287 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 16:40:32,288 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 16:40:32,289 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 17:34:21,187 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:34:21,232 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:34:21,233 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 17:34:21,235 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 17:34:21,235 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 17:34:21,236 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 17:40:08,918 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:40:08,958 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:41:02,268 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:41:02,316 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:43:19,674 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:43:19,709 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:45:28,400 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:45:28,437 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:45:55,563 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:45:55,595 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:47:43,174 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:47:43,209 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:48:33,433 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:48:33,472 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:48:33,475 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 17:48:33,478 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 17:48:33,480 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 17:48:33,481 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 17:50:04,589 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:50:04,635 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:50:04,636 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 17:50:04,638 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 17:50:04,639 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 17:50:04,640 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 17:50:16,785 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:50:16,845 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:50:16,845 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 17:50:16,848 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 17:50:16,849 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 17:50:16,850 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 17:51:02,757 ERROR [main] B.p.m.Main [Main.java:21] Program startup
+2024-03-15 17:51:02,804 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 17:51:02,805 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 17:51:02,810 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 17:51:02,811 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 17:51:02,812 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 18:13:17,218 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 18:13:17,259 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:30:29,339 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:30:29,379 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:30:29,380 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 19:30:29,384 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 19:30:29,386 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 19:30:29,387 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 19:31:39,236 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:31:39,292 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:31:39,292 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 19:31:39,295 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 19:31:39,295 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 19:31:39,296 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 19:34:08,412 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:34:08,480 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:34:08,481 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 19:34:08,502 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 19:34:08,503 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 19:34:08,503 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 19:36:46,814 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:36:46,814 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:36:46,907 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:36:46,907 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:36:46,907 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 19:36:46,907 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 19:36:46,911 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 19:36:46,911 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 19:36:46,911 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 19:36:46,911 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 19:36:46,912 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 19:36:46,912 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 19:37:21,921 ERROR [main] B.p.m.MainConsole [Main.java:22] Program startup
+2024-03-15 19:37:21,962 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:37:21,962 ERROR [main] B.p.m.Main [InputMethods.java:61] User is writing categories input
+2024-03-15 19:37:21,962 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 19:37:21,962 INFO [main] B.p.m.Main [InputMethods.java:62] Categories input!
+
+2024-03-15 19:37:21,964 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 19:37:21,964 INFO [main] B.p.m.Main [InputMethods.java:67] 1.category
+2024-03-15 19:37:21,964 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 19:37:21,964 INFO [main] B.p.m.Main [InputMethods.java:79] Category input
+2024-03-15 19:37:21,965 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 19:37:21,965 INFO [main] B.p.m.Main [InputMethods.java:80] Name:
+2024-03-15 19:39:25,967 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:39:25,967 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:39:26,040 ERROR [main] B.p.m.Main [InputMethods.java:62] User is writing categories input
+2024-03-15 19:39:26,040 ERROR [main] B.p.m.Main [InputMethods.java:62] User is writing categories input
+2024-03-15 19:39:26,041 INFO [main] B.p.m.MainConsole [InputMethods.java:63] Categories input!
+
+2024-03-15 19:39:26,043 INFO [main] B.p.m.MainConsole [InputMethods.java:68] 1.category
+2024-03-15 19:39:26,043 INFO [main] B.p.m.MainConsole [InputMethods.java:80] Category input
+2024-03-15 19:39:26,043 INFO [main] B.p.m.MainConsole [InputMethods.java:81] Name:
+2024-03-15 19:40:12,577 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:40:12,577 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-15 19:40:12,614 ERROR [main] B.p.m.Main [InputMethods.java:62] User is writing categories input
+2024-03-15 19:40:12,614 ERROR [main] B.p.m.Main [InputMethods.java:62] User is writing categories input
+2024-03-15 19:40:12,615 INFO [main] B.p.m.MainConsole [InputMethods.java:63] Categories input!
+
+2024-03-15 19:40:12,617 INFO [main] B.p.m.MainConsole [InputMethods.java:68] 1.category
+2024-03-15 19:40:12,618 INFO [main] B.p.m.MainConsole [InputMethods.java:80] Category input
+2024-03-15 19:40:12,620 INFO [main] B.p.m.MainConsole [InputMethods.java:81] Name:
+2024-03-15 19:40:16,439 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-15 19:40:16,439 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-15 19:40:16,440 INFO [main] B.p.m.Main [InputMethods.java:98] Description:
+2024-03-15 19:40:16,440 INFO [main] B.p.m.Main [InputMethods.java:98] Description:
+2024-03-15 19:40:18,542 INFO [main] B.p.m.MainConsole [InputMethods.java:68] 2.category
+2024-03-15 19:40:18,543 INFO [main] B.p.m.MainConsole [InputMethods.java:80] Category input
+2024-03-15 19:40:18,544 INFO [main] B.p.m.MainConsole [InputMethods.java:81] Name:
+2024-03-15 19:40:22,674 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-15 19:40:22,674 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-15 19:40:22,675 INFO [main] B.p.m.Main [InputMethods.java:98] Description:
+2024-03-15 19:40:22,675 INFO [main] B.p.m.Main [InputMethods.java:98] Description:
+2024-03-17 14:09:59,648 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-17 14:09:59,648 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-17 14:09:59,722 ERROR [main] B.p.m.Main [InputMethods.java:63] User is writing categories input
+2024-03-17 14:09:59,722 ERROR [main] B.p.m.Main [InputMethods.java:63] User is writing categories input
+2024-03-17 14:09:59,737 INFO [main] B.p.m.MainConsole [LoggerMethods.java:8] Categories input!
+
+2024-03-17 14:09:59,739 INFO [main] B.p.m.MainConsole [LoggerMethods.java:8] 
+1.category
+2024-03-17 14:09:59,740 INFO [main] B.p.m.MainConsole [InputMethods.java:79] Category input
+2024-03-17 14:09:59,740 INFO [main] B.p.m.MainConsole [InputMethods.java:80] Name:
+2024-03-17 14:10:59,790 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-17 14:10:59,790 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-17 14:10:59,847 ERROR [main] B.p.m.Main [InputMethods.java:63] User is writing categories input
+2024-03-17 14:10:59,847 ERROR [main] B.p.m.Main [InputMethods.java:63] User is writing categories input
+2024-03-17 14:10:59,848 INFO [main] B.p.m.MainConsole [LoggerMethods.java:8] Categories input!
+2024-03-17 14:10:59,851 INFO [main] B.p.m.MainConsole [LoggerMethods.java:8] 
+1.category
+2024-03-17 14:10:59,852 INFO [main] B.p.m.MainConsole [InputMethods.java:79] 
+Category input
+2024-03-17 14:10:59,852 INFO [main] B.p.m.MainConsole [InputMethods.java:80] 
+Name:
+2024-03-18 18:32:13,265 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-18 18:32:13,265 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-18 18:32:13,335 ERROR [main] B.p.m.Main [InputMethods.java:49] User is writing categories input
+2024-03-18 18:32:13,335 ERROR [main] B.p.m.Main [InputMethods.java:49] User is writing categories input
+2024-03-18 18:32:13,336 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] Categories input!
+2024-03-18 18:32:13,340 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+1.category
+2024-03-18 18:32:13,341 INFO [main] B.p.m.MainConsole [InputMethods.java:65] 
+Category input
+2024-03-18 18:32:13,342 INFO [main] B.p.m.MainConsole [InputMethods.java:66] 
+Name:
+2024-03-18 18:32:15,397 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:15,397 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:15,397 INFO [main] B.p.m.Main [InputMethods.java:83] Description:
+2024-03-18 18:32:15,397 INFO [main] B.p.m.Main [InputMethods.java:83] Description:
+2024-03-18 18:32:17,210 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+2.category
+2024-03-18 18:32:17,210 INFO [main] B.p.m.MainConsole [InputMethods.java:65] 
+Category input
+2024-03-18 18:32:17,211 INFO [main] B.p.m.MainConsole [InputMethods.java:66] 
+Name:
+2024-03-18 18:32:18,389 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:18,389 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:18,389 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Same description input error
+2024-03-18 18:32:18,389 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Same description input error
+2024-03-18 18:32:18,390 INFO [main] B.p.m.MainConsole [InputMethods.java:72] Same category name error
+Please try again!
+2024-03-18 18:32:18,391 ERROR [main] B.p.m.Main [InputMethods.java:73] User input same nameSame category name error
+Please try again!
+2024-03-18 18:32:18,391 ERROR [main] B.p.m.Main [InputMethods.java:73] User input same nameSame category name error
+Please try again!
+2024-03-18 18:32:18,392 INFO [main] B.p.m.MainConsole [InputMethods.java:65] 
+Category input
+2024-03-18 18:32:18,392 INFO [main] B.p.m.MainConsole [InputMethods.java:66] 
+Name:
+2024-03-18 18:32:26,380 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:26,380 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:26,380 INFO [main] B.p.m.Main [InputMethods.java:83] Description:
+2024-03-18 18:32:26,380 INFO [main] B.p.m.Main [InputMethods.java:83] Description:
+2024-03-18 18:32:30,178 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+3.category
+2024-03-18 18:32:30,178 INFO [main] B.p.m.MainConsole [InputMethods.java:65] 
+Category input
+2024-03-18 18:32:30,178 INFO [main] B.p.m.MainConsole [InputMethods.java:66] 
+Name:
+2024-03-18 18:32:31,964 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:31,964 ERROR [main] B.p.m.Main [InputCheckerMethods.java:32] Now checking for same name error
+2024-03-18 18:32:31,965 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Same description input error
+2024-03-18 18:32:31,965 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Same description input error
+2024-03-18 18:32:31,965 INFO [main] B.p.m.MainConsole [InputMethods.java:72] Same category name error
+Please try again!
+2024-03-18 18:32:31,965 ERROR [main] B.p.m.Main [InputMethods.java:73] User input same nameSame category name error
+Please try again!
+2024-03-18 18:32:31,965 ERROR [main] B.p.m.Main [InputMethods.java:73] User input same nameSame category name error
+Please try again!
+2024-03-18 18:32:31,966 INFO [main] B.p.m.MainConsole [InputMethods.java:65] 
+Category input
+2024-03-18 18:32:31,966 INFO [main] B.p.m.MainConsole [InputMethods.java:66] 
+Name:
