@@ -138,3 +138,23 @@ Please try again!
 Description:
 2024-03-26 13:57:00,145 ERROR [main] B.p.m.Main [Main.java:22] Program startup
 2024-03-26 13:57:00,191 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-26 20:27:30,116 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-26 20:27:30,157 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-26 20:27:33,161 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:27:38,182 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:27:40,637 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:27:43,319 ERROR [main] B.p.m.Main [InputMethods.java:60] Categories input done!
+2024-03-26 20:27:49,339 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:22] Store input!
+2024-03-26 20:27:49,340 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:34] Data for store!
+2024-03-26 20:28:00,616 ERROR [main] B.p.m.Main [InputCheckerMethods.java:66] Wrong number input!
+2024-03-26 20:28:01,708 ERROR [main] B.p.m.Main [InputCheckerMethods.java:66] Wrong number input!
+2024-03-26 20:33:19,029 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-26 20:33:19,082 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-26 20:33:24,016 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:33:25,847 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:33:25,847 ERROR [main] B.p.m.Main [InputCheckerMethods.java:36] Same description input error
+2024-03-26 20:33:25,848 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-26 20:33:27,546 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:33:29,166 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:33:29,858 ERROR [main] B.p.m.Main [InputMethods.java:60] Categories input done!

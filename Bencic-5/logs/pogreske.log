@@ -1,0 +1,49 @@
+2023-11-25 10:22:25,073 INFO [main] h.j.p.m.Main [Main.java:37] Program startup
+2023-11-25 10:22:25,089 INFO [main] h.j.p.m.Main [Main.java:762] User is writing categories input
+2023-11-25 10:22:25,090 INFO [main] h.j.p.m.Main [Main.java:770] Category input
+2023-11-25 10:22:51,026 INFO [main] h.j.p.m.Main [Main.java:770] Category input
+2023-11-25 10:22:52,888 INFO [main] h.j.p.m.Main [Main.java:803] Now checking for same name error
+2023-11-25 10:22:53,576 INFO [main] h.j.p.m.Main [Main.java:770] Category input
+2023-11-25 10:22:54,535 INFO [main] h.j.p.m.Main [Main.java:803] Now checking for same name error
+2023-11-25 10:22:55,399 INFO [main] h.j.p.m.Main [Main.java:790] Categories input done!
+2023-11-25 10:22:55,399 INFO [main] h.j.p.m.Main [Main.java:325] User is now picking items
+2023-11-25 10:22:55,401 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:22:56,841 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:22:57,672 INFO [main] h.j.p.m.Main [Main.java:677] Input item!
+2023-11-25 10:22:59,323 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:23:06,354 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:23:07,768 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:23:09,927 INFO [main] h.j.p.m.Main [Main.java:677] Input item!
+2023-11-25 10:23:13,368 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:23:24,309 INFO [main] h.j.p.m.Main [Main.java:515] Factories input!
+2023-11-25 10:23:24,309 INFO [main] h.j.p.m.Main [Main.java:534] Data for factory input!
+2023-11-25 10:23:43,348 INFO [main] h.j.p.m.Main [Main.java:551] Choosing items for store!
+2023-11-25 10:23:43,348 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:23:45,516 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:23:46,503 INFO [main] h.j.p.m.Main [Main.java:534] Data for factory input!
+2023-11-25 10:23:57,815 INFO [main] h.j.p.m.Main [Main.java:551] Choosing items for store!
+2023-11-25 10:23:57,815 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:23:59,606 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:24:00,407 INFO [main] h.j.p.m.Main [Main.java:633] Store input!
+2023-11-25 10:24:00,408 INFO [main] h.j.p.m.Main [Main.java:659] Data for store!
+2023-11-25 10:24:05,430 INFO [main] h.j.p.m.Main [Main.java:551] Choosing items for store!
+2023-11-25 10:24:05,431 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:24:07,335 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:24:08,102 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:24:09,080 INFO [main] h.j.p.m.Main [Main.java:659] Data for store!
+2023-11-25 10:24:14,678 INFO [main] h.j.p.m.Main [Main.java:551] Choosing items for store!
+2023-11-25 10:24:14,678 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:24:16,359 INFO [main] h.j.p.m.Main [Main.java:391] Checking if input integer is right and in range
+2023-11-25 10:24:17,693 INFO [main] h.j.p.m.Main [Main.java:92] Finding laptop with longest guarantee!
+2024-03-26 20:33:55,209 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-26 20:33:55,259 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-26 20:33:59,197 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:34:02,635 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:34:04,131 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-26 20:34:04,601 ERROR [main] B.p.m.Main [InputMethods.java:60] Categories input done!
+2024-03-26 20:34:10,763 ERROR [main] B.p.m.Main [InputCheckerMethods.java:67] Wrong number input!
+2024-03-26 20:34:13,930 ERROR [main] B.p.m.Main [InputCheckerMethods.java:67] Wrong number input!
+2024-03-26 20:34:15,504 ERROR [main] B.p.m.Main [InputCheckerMethods.java:67] Wrong number input!
+2024-03-26 20:34:17,045 ERROR [main] B.p.m.Main [InputCheckerMethods.java:67] Wrong number input!
+2024-03-26 20:34:17,866 ERROR [main] B.p.m.Main [InputCheckerMethods.java:67] Wrong number input!
+2024-03-26 20:34:18,446 ERROR [main] B.p.m.Main [InputCheckerMethods.java:67] Wrong number input!
