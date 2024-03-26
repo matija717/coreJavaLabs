@@ -7,26 +7,29 @@ import production.model.Discount;
 import production.model.Item;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
+import static production.main.Main.consoleLogger;
 import static production.main.Main.logger;
 import static production.util.InputCheckerMethods.*;
-import static production.util.LoggerMethods.consoleLogger;
 import static production.util.LoggerMethods.writeInConsoleWithLogger;
 
 public class InputMethods {
-    private static final int NUMBER_OF_CATEGORIES=3;
-    static Item singleItemInput(Scanner scanner, Category[] categories) {
+    private static final int NUMBER_OF_CATEGORIES = 3;
+
+    static Item singleItemInput(Scanner scanner, List<Category> categories) {
         logger.error("Input item!");
         consoleLogger.info("\nName:");
         String name = scanner.nextLine();
-        writeInConsoleWithLogger("Pick category from 1 to " + categories.length);
-        for (int j = 0; j < categories.length; j++) {
-            writeInConsoleWithLogger((j + 1) + ". " + categories[j].getName());
+        writeInConsoleWithLogger("Pick category from 1 to " + categories.size());
+        for (int j = 0; j < categories.size(); j++) {
+            writeInConsoleWithLogger((j + 1) + ". " + categories.get(j).getName());
         }
         String messageForInput = "Pick:";
         int categoryPick = integerInputMismatchChecker(scanner, messageForInput,
-                1, categories.length) - 1;
+                1, categories.size()) - 1;
         messageForInput = "Width:";
         BigDecimal width = bigDecimalInputMismatchChecker(scanner, messageForInput);
         messageForInput = "Length:";
@@ -42,26 +45,28 @@ public class InputMethods {
                 .multiply(BigDecimal.valueOf(0.01));
         sellingPrice = sellingPrice.add(sellingPrice.negate().multiply(discountAmount));
 
-        return new Item(name, categories[categoryPick], width, height,
+        return new Item(name, categories.get(categoryPick), width, height,
                 length, productionCost, sellingPrice, new Discount(discountAmount));
     }
-     public static Category[] categoriesInput(Scanner scanner) {
+
+    public static List <Category> categoriesInput(Scanner scanner) {
         logger.error("User is writing categories input");
-         writeInConsoleWithLogger("Categories input!");
-        Category[] categories = new Category[NUMBER_OF_CATEGORIES];
+        writeInConsoleWithLogger("Categories input!");
+        List<Category> categories = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_CATEGORIES; i++) {
-            writeInConsoleWithLogger("\n"+String.valueOf(i+1).concat(".category"));
-            categories[i] = inputCategory(scanner,categories);
+            writeInConsoleWithLogger("\n" + String.valueOf(i + 1).concat(".category"));
+            categories.add(inputCategory(scanner, categories));
         }
         logger.error("Categories input done!");
         return categories;
     }
 
-    private static Category inputCategory(Scanner scanner,Category[] categories) {
+    private static Category inputCategory(Scanner scanner, List <Category> categories) {
         boolean continueLoop;
-        String name="";
+        String name = "";
         do {
             try {
+                consoleLogger.info("\nCategory input");
                 consoleLogger.info("\nName:");
                 name = scanner.nextLine();
                 continueLoop = sameNameChecker(name, categories);
@@ -69,14 +74,14 @@ public class InputMethods {
 
             } catch (SameItemNameRuntimeException ex) {
                 consoleLogger.info(ex.getMessage());
-                logger.error("User input same name".concat( ex.getMessage()));
+                logger.error("User input same name".concat(ex.getMessage()));
                 continueLoop = true;
 
             }
         } while (continueLoop);
 
 
-        String description="";
+        String description = "";
         do {
             try {
                 writeInConsoleWithLogger("\nDescription:");
@@ -84,14 +89,14 @@ public class InputMethods {
                 continueLoop = sameCategoryDescriptionInput(description, categories);
             } catch (SameFileErrror ex) {
                 consoleLogger.info("\nSame description input error");
-                writeInConsoleWithLogger("\n"+ex.getMessage());
+                writeInConsoleWithLogger("\n" + ex.getMessage());
                 logger.error(ex.getMessage());
-                continueLoop=true;
+                continueLoop = true;
 
             }
         } while (continueLoop);
 
-        return  new Category(description, name);
+        return new Category(description, name);
 
     }
 

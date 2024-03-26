@@ -10,6 +10,7 @@ import java.util.Scanner;
 import static production.main.Main.*;
 import static production.util.InputCheckerMethods.integerInputMismatchChecker;
 import static production.util.ItemsInputUtil.itemPicker;
+import static production.util.LoggerMethods.consoleLogger;
 import static production.util.LoggerMethods.writeInConsoleWithLogger;
 
 public class FactoriesAndStoresInputUtil {
