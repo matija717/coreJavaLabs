@@ -5,20 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>coreJavaLabs</artifactId>
+    <artifactId>Bencic-4</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>Bencic-1</module>
-        <module>Bencic-2</module>
-        <module>Bencic-3</module>
-        <module>Bencic-4</module>
-        <module>Bencic-6</module>
-        <module>Bencic-7</module>
-        <module>Bencic-8</module>
-        <module>Bencic-4</module>
 
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.14</version>
+        </dependency>
+    </dependencies>
+
+
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

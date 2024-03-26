@@ -1,0 +1,140 @@
+2024-03-22 16:39:05,104 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-22 16:39:05,104 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-22 16:39:05,210 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-22 16:39:05,210 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-22 16:39:05,228 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] Categories input!
+2024-03-22 16:39:05,230 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+1.category
+2024-03-22 16:39:05,232 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:39:05,234 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:39:07,192 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:39:07,192 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:39:07,192 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Description:
+2024-03-22 16:39:09,438 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+2.category
+2024-03-22 16:39:09,439 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:39:09,439 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:39:10,679 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:39:10,679 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:39:10,679 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Description:
+2024-03-22 16:39:12,194 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+3.category
+2024-03-22 16:39:12,195 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:39:12,195 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:39:13,222 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:39:13,222 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:39:13,222 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Description:
+2024-03-22 16:39:13,851 ERROR [main] B.p.m.Main [InputMethods.java:60] Categories input done!
+2024-03-22 16:39:13,851 ERROR [main] B.p.m.Main [InputMethods.java:60] Categories input done!
+2024-03-22 16:41:28,501 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-22 16:41:28,501 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-22 16:41:28,551 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-22 16:41:28,551 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-22 16:41:28,552 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] Categories input!
+2024-03-22 16:41:28,555 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+1.category
+2024-03-22 16:41:28,555 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:41:28,555 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:41:31,391 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:41:31,391 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:41:31,392 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Description:
+2024-03-22 16:41:32,388 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+2.category
+2024-03-22 16:41:32,389 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:41:32,389 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:41:34,193 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:41:34,193 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:41:34,194 ERROR [main] B.p.m.Main [InputCheckerMethods.java:38] Same description input error
+2024-03-22 16:41:34,194 ERROR [main] B.p.m.Main [InputCheckerMethods.java:38] Same description input error
+2024-03-22 16:41:34,195 INFO [main] B.p.m.MainConsole [InputMethods.java:76] Same category name error
+Please try again!
+2024-03-22 16:41:34,195 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-22 16:41:34,195 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-22 16:41:34,196 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:41:34,197 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:41:36,909 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:41:36,909 ERROR [main] B.p.m.Main [InputCheckerMethods.java:35] Now checking for same name error
+2024-03-22 16:41:36,910 ERROR [main] B.p.m.Main [InputCheckerMethods.java:38] Same description input error
+2024-03-22 16:41:36,910 ERROR [main] B.p.m.Main [InputCheckerMethods.java:38] Same description input error
+2024-03-22 16:41:36,910 INFO [main] B.p.m.MainConsole [InputMethods.java:76] Same category name error
+Please try again!
+2024-03-22 16:41:36,911 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-22 16:41:36,911 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-22 16:41:36,913 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:41:36,914 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:43:26,173 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-22 16:43:26,173 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-22 16:43:26,218 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-22 16:43:26,218 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-22 16:43:26,219 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] Categories input!
+2024-03-22 16:43:26,221 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+1.category
+2024-03-22 16:43:26,221 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:43:26,222 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:43:40,252 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-22 16:43:40,252 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-22 16:43:40,252 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Description:
+2024-03-22 16:43:41,348 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+2.category
+2024-03-22 16:43:41,349 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:43:41,349 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:43:42,592 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-22 16:43:42,592 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-22 16:43:42,592 ERROR [main] B.p.m.Main [InputCheckerMethods.java:36] Same description input error
+2024-03-22 16:43:42,592 ERROR [main] B.p.m.Main [InputCheckerMethods.java:36] Same description input error
+2024-03-22 16:43:42,593 INFO [main] B.p.m.MainConsole [InputMethods.java:76] Same category name error
+Please try again!
+2024-03-22 16:43:42,593 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-22 16:43:42,593 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-22 16:43:42,593 INFO [main] B.p.m.MainConsole [InputMethods.java:69] 
+Category input
+2024-03-22 16:43:42,594 INFO [main] B.p.m.MainConsole [InputMethods.java:70] 
+Name:
+2024-03-22 16:43:47,079 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-22 16:43:47,079 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-22 16:43:47,079 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Description:
+2024-03-22 16:43:47,850 ERROR [main] B.p.m.Main [InputCheckerMethods.java:25] Same description input error
+2024-03-22 16:43:47,850 ERROR [main] B.p.m.Main [InputCheckerMethods.java:25] Same description input error
+2024-03-22 16:43:47,851 INFO [main] B.p.m.MainConsole [InputMethods.java:91] 
+Same description input error
+2024-03-22 16:43:47,852 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Same description error
+Please try again!
+2024-03-22 16:43:47,854 ERROR [main] B.p.m.Main [InputMethods.java:93] Same description error
+Please try again!
+2024-03-22 16:43:47,854 ERROR [main] B.p.m.Main [InputMethods.java:93] Same description error
+Please try again!
+2024-03-22 16:43:47,854 INFO [main] B.p.m.MainConsole [LoggerMethods.java:9] 
+Description:
+2024-03-26 13:57:00,145 ERROR [main] B.p.m.Main [Main.java:22] Program startup
+2024-03-26 13:57:00,191 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
