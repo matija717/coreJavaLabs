@@ -14,15 +14,15 @@ import static production.util.ItemsInputUtil.itemPicker;
 import static production.util.LoggerMethods.writeInConsoleWithLogger;
 
 public class FactoriesAndStoresInputUtil {
-    private static final int NUMBER_OF_STORES = 3;
+    private static final int NUMBER_OF_STORES = 2;
     private static final int NUMBER_OF_FACTORIES = 2;
 
     public static List<Store> storesInput(Scanner scanner, List<Item> items) {
         logger.error("Store input!");
-        consoleLogger.info("Stores input!");
+        consoleLogger.info("\nStores input!");
         List<Store> stores = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_STORES; i++) {
-            writeInConsoleWithLogger((i + 1) + ". store");
+            writeInConsoleWithLogger("\n" + (i + 1) + ". store");
             stores.add(singleStoreInput(scanner, items));
 
         }
@@ -32,7 +32,7 @@ public class FactoriesAndStoresInputUtil {
     }
 
     private static TechnicalStore<Technical> technicalStoreInput(Scanner scanner, List<Item> items) {
-        consoleLogger.info("\nName:");
+        consoleLogger.info("\nTechnical store input\nName:");
         String name = scanner.nextLine();
         consoleLogger.info("\nWeb address:");
         String webAddress = scanner.nextLine();
@@ -44,12 +44,12 @@ public class FactoriesAndStoresInputUtil {
     }
 
     private static FoodStore<Edible> foodStoreInput(Scanner scanner, List<Item> items) {
-        consoleLogger.info("\nName:");
+        consoleLogger.info("\nFood store input\nName:");
         String name = scanner.nextLine();
         consoleLogger.info("\nWeb address:");
         String webAddress = scanner.nextLine();
         FoodStore<Edible> foodStore = new FoodStore<>(name, webAddress, new HashSet<>());
-        items.stream().filter(Technical.class::isInstance)
+        items.stream().filter(Edible.class::isInstance)
                 .map(Edible.class::cast)
                 .forEach(foodStore::addEdibleItem);
         return foodStore;
@@ -58,7 +58,7 @@ public class FactoriesAndStoresInputUtil {
 
     private static Store singleStoreInput(Scanner scanner, List<Item> items) {
         logger.error("Data for store!");
-        consoleLogger.info("Name:");
+        consoleLogger.info("\nName:");
         String name = scanner.nextLine();
         consoleLogger.info("Web address:");
         String webAddress = scanner.nextLine();
@@ -68,35 +68,42 @@ public class FactoriesAndStoresInputUtil {
     }
 
     public static Address addressInput(Scanner scanner) {
-        consoleLogger.info("Street: ");
+        boolean continueLoop;
+        consoleLogger.info("\nStreet: ");
         String street = scanner.nextLine();
-        consoleLogger.info("House number: ");
+        consoleLogger.info("\nHouse number: ");
         String houseNumber = scanner.nextLine();
-        try {
-            Cities city = citySelection(scanner);
-            return new Address(street, houseNumber, city);
-        } catch (NoCityException ex) {
-            writeInConsoleWithLogger("No city found");
-        }
-        throw new RuntimeException();
+        Optional<Cities> city;
+        do {
+            try {
+                continueLoop = false;
+                city = citySelection(scanner);
+                if(city.isEmpty())throw new NoCityException("\nNo city found");
+            } catch (NoCityException ex) {
+                continueLoop = true;
+                writeInConsoleWithLogger(ex.getMessage());
+                city = Optional.empty();
+            }
+        } while (continueLoop);
+        return new Address(street, houseNumber, city.get());
     }
 
-    private static Cities citySelection(Scanner scanner) {
-        consoleLogger.info("\nCity: ");
+    private static Optional<Cities> citySelection(Scanner scanner) {
+        Arrays.stream(Cities.values()).forEach(cities -> writeInConsoleWithLogger("\n"
+                .concat(cities.getCity())));
+        consoleLogger.info("\nChoose one from above\nCity: ");
         String city = scanner.nextLine();
-        Optional<Cities> cityValue = Arrays.stream(Cities.values())
+        return Arrays.stream(Cities.values())
                 .filter(c -> c.getCity().equals(city)).findAny();
 
-        if (cityValue.isPresent()) return cityValue.get();
-        else throw new NoCityException("No city found try again");
     }
 
     public static List<Factory> factoriesInput(Scanner scanner, List<Item> items) {
         logger.error("Factories input!");
-        consoleLogger.info("Factories input!");
+        consoleLogger.info("\nFactories input!");
         List<Factory> factories = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_FACTORIES; i++) {
-            writeInConsoleWithLogger((i + 1) + ". factory");
+            writeInConsoleWithLogger("\n" + (i + 1) + ". factory");
             factories.add(singleFactoryInput(scanner, items));
 
         }
@@ -105,9 +112,9 @@ public class FactoriesAndStoresInputUtil {
 
     private static Factory singleFactoryInput(Scanner scanner, List<Item> items) {
         logger.error("Data for factory input!");
-        consoleLogger.info("Name: ");
+        consoleLogger.info("\nName: ");
         String name = scanner.nextLine();
-        consoleLogger.info("Address input!");
+        consoleLogger.info("\nAddress input!");
         Address address = addressInput(scanner);
 
 

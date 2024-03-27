@@ -3,6 +3,7 @@ package production.main;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import production.model.*;
+import production.util.PrintUtil;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,6 +16,7 @@ import static production.util.InputMethods.categoriesInput;
 import static production.util.ItemDataFilterSearchUtil.*;
 import static production.util.ItemsInputUtil.articlesSelectionInput;
 import static production.util.LoggerMethods.writeInConsoleWithLogger;
+import static production.util.PrintUtil.printNumberOfItemsInStores;
 
 public class Main {
     public static final Logger logger = LoggerFactory.getLogger("Bencic-5.production.main.Main");
@@ -38,9 +40,11 @@ public class Main {
 
         logger.info("Sorting stores above average item number");
         lambdaSortingStoresAboveAverageItemNumber(stores);
+        normalSortingStoresAboveAverageItemNumber(stores);
 
-        logger.info("TU TU TU");
+        logger.info("Sorting items with discount");
         Optional<List<Item>>sortedItems=sortingItemsWithDiscountOut(allItems);
+        sortedItems.ifPresent(PrintUtil::printOutItemsWithDiscount);
         printNumberOfItemsInStores(stores);
 
         logger.error("Finding laptop with longest guarantee!");

@@ -23,9 +23,9 @@ public class InputMethods {
         logger.error("Input item!");
         consoleLogger.info("\nName:");
         String name = scanner.nextLine();
-        writeInConsoleWithLogger("Pick category from 1 to " + categories.size());
+        writeInConsoleWithLogger("\nPick category from 1 to " + categories.size());
         for (int j = 0; j < categories.size(); j++) {
-            writeInConsoleWithLogger((j + 1) + ". " + categories.get(j).getName());
+            writeInConsoleWithLogger("\n"+(j + 1) + ".category:  " + categories.get(j).getName());
         }
         String messageForInput = "Pick:";
         int categoryPick = integerInputMismatchChecker(scanner, messageForInput,
@@ -66,7 +66,6 @@ public class InputMethods {
         String name = "";
         do {
             try {
-                consoleLogger.info("\nCategory input");
                 consoleLogger.info("\nName:");
                 name = scanner.nextLine();
                 continueLoop = sameNameChecker(name, categories);
@@ -74,7 +73,8 @@ public class InputMethods {
 
             } catch (SameItemNameRuntimeException ex) {
                 consoleLogger.info(ex.getMessage());
-                logger.error("User input same name".concat(ex.getMessage()));
+                logger.error("User input same name"
+                        .concat(ex.getMessage()));
                 continueLoop = true;
 
             }
@@ -84,11 +84,10 @@ public class InputMethods {
         String description = "";
         do {
             try {
-                writeInConsoleWithLogger("\nDescription:");
+                writeInConsoleWithLogger("Description:");
                 description = scanner.nextLine();
                 continueLoop = sameCategoryDescriptionInput(description, categories);
             } catch (SameFileErrror ex) {
-                consoleLogger.info("\nSame description input error");
                 writeInConsoleWithLogger("\n" + ex.getMessage());
                 logger.error(ex.getMessage());
                 continueLoop = true;

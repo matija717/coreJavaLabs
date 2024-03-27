@@ -23,7 +23,7 @@ public class InputCheckerMethods {
         for (Category category : categories) {
             if (category.getDescription().equals(description)) {
                 logger.error("Same description input error");
-                throw new SameFileErrror("Same description error\nPlease try again!");
+                throw new SameFileErrror("\nSame description error\nPlease try again!");
             }
         }
         return false;
@@ -59,17 +59,16 @@ public class InputCheckerMethods {
             try {
                 writeInConsoleWithLogger("\n" + message);
                 picker = scanner.nextInt();
-                scanner.nextLine();
                 if (!integerInRangeChecker(picker, maxNumber, minNumber)) {
                     continueLoop = false;
                 } else {
-                    writeInConsoleWithLogger("Please insert number which is right!");
+                    writeInConsoleWithLogger("\nPlease insert number which is right!");
                     logger.error("Wrong number input!");
                     continueLoop = true;
                 }
             } catch (InputMismatchException ex) {
                 logger.error("Wrong data input!");
-                writeInConsoleWithLogger("Please input numeric data!");
+                writeInConsoleWithLogger("\nPlease input numeric data!");
                 scanner.nextLine();
                 continueLoop = true;
             }

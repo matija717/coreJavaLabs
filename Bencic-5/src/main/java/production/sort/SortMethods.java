@@ -53,11 +53,13 @@ public class SortMethods {
                 .stream()
                 .filter(item -> (item.volumeOfItemCalculation()).compareTo(averageVolume) > 0)
                 .toList();
+        if(!itemsAboveAveragePrice.isEmpty()){
         writeInConsoleWithLogger(
                 String.valueOf(itemsAboveAveragePrice.stream()
                         .map(Item::getSellingPrice)
                         .reduce(BigDecimal.ZERO, BigDecimal::add)
-                        .divide(BigDecimal.valueOf(itemsAboveAveragePrice.size()), RoundingMode.HALF_UP)));
+                        .divide(BigDecimal.valueOf(itemsAboveAveragePrice.size()), RoundingMode.HALF_UP)));}
+        else {writeInConsoleWithLogger("Items above Average is empty");}
         long endTime = System.nanoTime();
         writeInConsoleWithLogger("\nLambda time for sorting items with greater average volume:"
                 .concat(String.valueOf(endTime - startTime)));
@@ -117,8 +119,5 @@ public class SortMethods {
 
         return filteredItems.isEmpty() ? Optional.empty() : Optional.of(filteredItems);
     }
-    public static void printNumberOfItemsInStores(List<Store> stores) {
-        stores.forEach(store->writeInConsoleWithLogger
-                ("Number of items in " + store.getName() + ": " + store.getItems().size()));
-    }
+
 }
