@@ -43,7 +43,7 @@ public class InputCheckerMethods {
     }
 
     private static boolean bigDecimalLessThanZeroChecker(BigDecimal input) {
-        return input.compareTo(new BigDecimal("0")) > 0;
+        return input.compareTo(BigDecimal.ZERO) >= 0;
     }
 
     private static boolean integerInRangeChecker(Integer input, Integer maxNumber, Integer minNumber) {

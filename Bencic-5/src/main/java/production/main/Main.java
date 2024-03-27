@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory;
 import production.model.*;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.Scanner;
 
-import static production.sort.SortMethods.lambdaSortingItemsByVolume;
-import static production.sort.SortMethods.normalSortingItemsByVolume;
+import static production.sort.SortMethods.*;
 import static production.util.FactoriesAndStoresInputUtil.factoriesInput;
 import static production.util.FactoriesAndStoresInputUtil.storesInput;
 import static production.util.InputMethods.categoriesInput;
@@ -28,10 +28,21 @@ public class Main {
         List<Store> stores = storesInput(scanner, allItems);
         List<Factory> factories = factoriesInput(scanner, allItems);
 
-        logger.info("Sorting items by volume with lambda");
+        logger.info("Sorting items by volume");
         lambdaSortingItemsByVolume(stores);
-        logger.info("Sorting items by volume without lambda");
         normalSortingItemsByVolume(stores);
+
+        logger.info("Sorting items above average volume");
+        lambdaSortingItemsAboveAverageVolume(allItems);
+        normalSortingItemsAboveAverageVolume(allItems);
+
+        logger.info("Sorting stores above average item number");
+        lambdaSortingStoresAboveAverageItemNumber(stores);
+
+        logger.info("TU TU TU");
+        Optional<List<Item>>sortedItems=sortingItemsWithDiscountOut(allItems);
+        printNumberOfItemsInStores(stores);
+
         logger.error("Finding laptop with longest guarantee!");
         writeInConsoleWithLogger(findLaptopWithLongestGuaranteeValue(allItems));
 
@@ -55,75 +66,3 @@ public class Main {
         writeInConsoleWithLogger(findBiggestItem(factories));
     }
 }
-/* public static void main(String[] args) {
-        logger.info("Program startup");
-        Scanner scanner = new Scanner(System.in);
-        List<Category> categories = categoriesInput(scanner);
-        // Collect input data for various product types (Bananas, Kiwis, Laptops, Items)
-        // and stores and factories that deal with these products.
-
-        Articles articles = articlesSelectionAndInput(categories, scanner);
-        itemsWithGreaterAverageVolumeLambdaCalculation(articles.getItems());
-        itemsWithGreaterAverageVolumeWithoutLambdaCalculation(articles.getItems());
-
-        FoodStore foodStore = new FoodStore<>("Tvornica", "www.foodara.com"
-                , new LinkedHashSet<>(articles.getItems()), edibleItemsInputer(articles));
-        foodStore.setItems(itemSortingWithLambda(foodStore.getItems()));
-        itemSortingWithoutLambda(foodStore.getItems());
-
-        TehnicalStore tehnicalStore = new TehnicalStore<>("Trgovina tehnicka", "www.tehnika.com"
-                , new LinkedHashSet<>(articles.getItems()), technicalItemsInputer(articles));
-        tehnicalStore.setItems(itemSortingWithLambda(tehnicalStore.getItems()));
-        itemSortingWithoutLambda(tehnicalStore.getItems());
-        try {
-            allItemsSortingWithGreaterThanZeroDiscount(articles);
-        } catch (NoItemException ex) {
-            System.out.println(ex.getMessage());
-        }
-
-
-        cheapestAndMostExpensiveItemPerCategory(categories, articles);
-        System.out.println(mostExpensiveAndCheapestItems(articles));
-
-        List<Factory> factories = factoriesInput(scanner, articles.getItems());
-        List<Store> stores = storesInput(scanner, articles.getItems());
-        stores.add(tehnicalStore);
-        stores.add(foodStore);
-        stores.forEach(store ->
-                System.out.println("Store:"
-                        .concat(store.getName())
-                        .concat(" Number of Items:")
-                        .concat(String.valueOf(store.getItems().size()))));
-        stores.forEach(store -> store
-                .getItems()
-                .forEach(Item::toString));
-        //average item number
-        int averageItemNumber = stores.stream()
-                .mapToInt(store -> store.getItems().size())
-                .sum();
-        averageItemNumber = averageItemNumber / stores.size();
-        int finalAverageItemNumber = averageItemNumber;
-        List<Store> storesWithAboveAverageItems = stores.stream()
-                .filter(store -> store.getItems().size() > finalAverageItemNumber)
-                .toList();
-        System.out.println(storesWithAboveAverageItems);
-
-        System.out.println(findBiggestItemInFactories(factories));
-        System.out.println(findCheapestItemInStores(stores));
-
-        logger.info("Finding laptop with longest guarantee!");
-        // Find and display information about the laptop with the longest guarantee.
-        try {
-            System.out.println(findLaptopWithLongestGuaranteeValue(articles.getLaptops()));
-        } catch (NoItemException ex) {
-            System.out.println(ex.getMessage());
-        }
-        System.out.println(mostExpensiveAndCheapestItems(articles));
-
-        List<Item> listaNajjeftinijih = thereeMostCheapestItems(articles);
-        listaNajjeftinijih.stream().forEach(Item::toString);
-        threeMostExpensiveItems(articles, listaNajjeftinijih);
-
-        bellowAndAboveAverageChecker(allItemsReturner(articles))
-
-    }*/
