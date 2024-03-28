@@ -158,3 +158,129 @@ Please try again!
 2024-03-26 20:33:27,546 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
 2024-03-26 20:33:29,166 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
 2024-03-26 20:33:29,858 ERROR [main] B.p.m.Main [InputMethods.java:60] Categories input done!
+2024-03-28 12:19:25,700 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:19:25,756 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:19:30,037 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:28:58,827 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:28:58,921 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:29:01,951 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:29:06,649 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:29:06,650 ERROR [main] B.p.m.Main [InputCheckerMethods.java:36] Same description input error
+2024-03-28 12:29:06,651 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-28 12:29:10,965 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:29:16,306 ERROR [main] B.p.m.Main [InputCheckerMethods.java:25] Same description input error
+2024-03-28 12:29:16,307 ERROR [main] B.p.m.Main [InputMethods.java:92] Same description error
+Please try again!
+
+2024-03-28 12:29:51,982 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:29:52,041 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:29:59,670 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:30:05,325 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:30:05,325 ERROR [main] B.p.m.Main [InputCheckerMethods.java:36] Same description input error
+2024-03-28 12:30:05,326 ERROR [main] B.p.m.Main [InputMethods.java:77] User input same nameSame category name error
+Please try again!
+2024-03-28 12:30:07,247 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:30:09,570 ERROR [main] B.p.m.Main [InputCheckerMethods.java:25] Same description input error
+2024-03-28 12:30:09,570 ERROR [main] B.p.m.Main [InputMethods.java:92] Same description error
+Please try again!
+
+2024-03-28 12:30:14,830 ERROR [main] B.p.m.Main [InputCheckerMethods.java:25] Same description input error
+2024-03-28 12:30:14,830 ERROR [main] B.p.m.Main [InputMethods.java:92] Same description error
+Please try again!
+
+2024-03-28 12:30:17,339 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:30:18,623 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:30:21,044 ERROR [main] B.p.m.Main [InputCheckerMethods.java:66] Wrong number input!
+2024-03-28 12:31:51,434 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:31:51,469 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:31:53,886 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:31:57,655 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:32:02,810 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:32:04,677 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:32:53,964 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:32:54,006 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:33:02,861 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:33:03,966 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:33:05,215 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:33:05,851 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:33:12,429 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:35:34,652 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:35:34,732 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:35:37,086 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:35:38,538 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:35:40,658 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:35:41,439 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:35:47,079 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:35:55,149 ERROR [main] B.p.m.Main [InputCheckerMethods.java:66] Wrong number input!
+2024-03-28 12:35:58,914 ERROR [main] B.p.m.Main [InputCheckerMethods.java:70] Wrong data input!
+2024-03-28 12:42:26,187 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:42:26,239 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:42:28,361 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:42:30,078 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:42:31,151 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:42:31,589 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:44:29,154 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:44:29,194 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:44:30,974 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:44:32,292 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:44:33,393 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:44:33,788 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:45:43,335 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:45:43,382 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:45:45,231 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:45:47,565 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:45:48,709 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:45:49,082 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:45:51,800 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:46:25,924 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:47:02,844 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:47:09,763 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:22] Store input!
+2024-03-28 12:47:09,764 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 12:48:34,433 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 12:48:42,570 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 12:48:53,950 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:70] Factories input!
+2024-03-28 12:48:53,951 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:82] Data for factory input!
+2024-03-28 12:52:40,874 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 12:52:40,910 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 12:52:42,807 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:52:44,243 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:52:45,373 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 12:52:45,785 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 12:52:47,768 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:52:59,975 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:53:15,773 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 12:53:24,596 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:22] Store input!
+2024-03-28 12:53:24,597 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 12:53:38,085 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 12:53:51,604 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 12:54:02,313 ERROR [main] B.p.m.Main [InputCheckerMethods.java:66] Wrong number input!
+2024-03-28 12:54:11,319 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:76] Factories input!
+2024-03-28 12:54:11,321 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:89] Data for factory input!
+2024-03-28 12:56:18,720 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:89] Data for factory input!
+2024-03-28 12:56:33,845 ERROR [main] B.p.m.Main [Main.java:30] Finding laptop with longest guarantee!
+2024-03-28 12:56:33,869 ERROR [main] B.p.m.Main [Main.java:33] Finding food with most calories!
+2024-03-28 12:56:33,869 ERROR [main] B.p.m.Main [Main.java:38] Finding most expensive food
+2024-03-28 12:56:33,870 ERROR [main] B.p.m.Main [Main.java:43] Finding cheapest and biggest item
+2024-03-28 13:11:14,157 ERROR [main] B.p.m.Main [Main.java:23] Program startup
+2024-03-28 13:11:14,252 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 13:11:16,010 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:11:17,706 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:11:18,622 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:11:19,039 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 13:11:21,268 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 13:11:41,984 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 13:11:55,625 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 13:12:57,429 ERROR [main] B.p.m.Main [InputCheckerMethods.java:66] Wrong number input!
+2024-03-28 13:13:09,893 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:22] Store input!
+2024-03-28 13:13:09,896 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 13:13:19,890 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 13:14:08,187 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:35] Data for store!
+2024-03-28 13:14:14,699 ERROR [main] B.p.m.Main [InputCheckerMethods.java:66] Wrong number input!
+2024-03-28 13:14:31,182 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:76] Factories input!
+2024-03-28 13:14:31,183 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:89] Data for factory input!
+2024-03-28 13:15:41,426 ERROR [main] B.p.m.Main [FactoriesAndStoresInputUtil.java:89] Data for factory input!
+2024-03-28 13:15:53,819 ERROR [main] B.p.m.Main [Main.java:30] Finding laptop with longest guarantee!
+2024-03-28 13:15:53,837 ERROR [main] B.p.m.Main [Main.java:33] Finding food with most calories!
+2024-03-28 13:15:53,838 ERROR [main] B.p.m.Main [Main.java:38] Finding most expensive food
+2024-03-28 13:15:53,839 ERROR [main] B.p.m.Main [Main.java:43] Finding cheapest and biggest item

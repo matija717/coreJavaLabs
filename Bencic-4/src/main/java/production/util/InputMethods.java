@@ -25,9 +25,9 @@ public class InputMethods {
         String name = scanner.nextLine();
         writeInConsoleWithLogger("Pick category from 1 to " + categories.size());
         for (int j = 0; j < categories.size(); j++) {
-            writeInConsoleWithLogger((j + 1) + ". " + categories.get(j).getName());
+            writeInConsoleWithLogger("\n"+(j + 1) + ". " + categories.get(j).getName());
         }
-        String messageForInput = "Pick:";
+        String messageForInput = "\nPick:";
         int categoryPick = integerInputMismatchChecker(scanner, messageForInput,
                 1, categories.size()) - 1;
         messageForInput = "Width:";
@@ -54,7 +54,8 @@ public class InputMethods {
         writeInConsoleWithLogger("Categories input!");
         List<Category> categories = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_CATEGORIES; i++) {
-            writeInConsoleWithLogger("\n" + String.valueOf(i + 1).concat(".category"));
+            if(i==0)writeInConsoleWithLogger("\n");
+            writeInConsoleWithLogger( String.valueOf(i + 1).concat(".category"));
             categories.add(inputCategory(scanner, categories));
         }
         logger.error("Categories input done!");
@@ -66,7 +67,6 @@ public class InputMethods {
         String name = "";
         do {
             try {
-                consoleLogger.info("\nCategory input");
                 consoleLogger.info("\nName:");
                 name = scanner.nextLine();
                 continueLoop = sameNameChecker(name, categories);
@@ -84,12 +84,11 @@ public class InputMethods {
         String description = "";
         do {
             try {
-                writeInConsoleWithLogger("\nDescription:");
+                writeInConsoleWithLogger("Description:");
                 description = scanner.nextLine();
                 continueLoop = sameCategoryDescriptionInput(description, categories);
             } catch (SameFileErrror ex) {
-                consoleLogger.info("\nSame description input error");
-                writeInConsoleWithLogger("\n" + ex.getMessage());
+                writeInConsoleWithLogger(ex.getMessage());
                 logger.error(ex.getMessage());
                 continueLoop = true;
 

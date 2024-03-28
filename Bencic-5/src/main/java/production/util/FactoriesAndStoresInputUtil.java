@@ -71,14 +71,14 @@ public class FactoriesAndStoresInputUtil {
         boolean continueLoop;
         consoleLogger.info("\nStreet: ");
         String street = scanner.nextLine();
-        consoleLogger.info("\nHouse number: ");
+        consoleLogger.info("House number: ");
         String houseNumber = scanner.nextLine();
         Optional<Cities> city;
         do {
             try {
                 continueLoop = false;
                 city = citySelection(scanner);
-                if(city.isEmpty())throw new NoCityException("\nNo city found");
+                if(city.isEmpty())throw new NoCityException("No city found!");
             } catch (NoCityException ex) {
                 continueLoop = true;
                 writeInConsoleWithLogger(ex.getMessage());
@@ -89,8 +89,8 @@ public class FactoriesAndStoresInputUtil {
     }
 
     private static Optional<Cities> citySelection(Scanner scanner) {
-        Arrays.stream(Cities.values()).forEach(cities -> writeInConsoleWithLogger("\n"
-                .concat(cities.getCity())));
+        Arrays.stream(Cities.values()).forEach(cities -> writeInConsoleWithLogger(cities.getCity()
+                .concat("\n")));
         consoleLogger.info("\nChoose one from above\nCity: ");
         String city = scanner.nextLine();
         return Arrays.stream(Cities.values())

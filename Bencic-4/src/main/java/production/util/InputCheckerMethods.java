@@ -23,7 +23,7 @@ public class InputCheckerMethods {
         for (Category category : categories) {
             if (category.getDescription().equals(description)) {
                 logger.error("Same description input error");
-                throw new SameFileErrror("Same description error\nPlease try again!");
+                throw new SameFileErrror("Same description error\nPlease try again!\n");
             }
         }
         return false;
@@ -56,7 +56,7 @@ public class InputCheckerMethods {
         Integer picker = null;
         do {
             try {
-                writeInConsoleWithLogger("\n" + message);
+                writeInConsoleWithLogger(message);
                 picker = scanner.nextInt();
                 scanner.nextLine();
                 if (!integerInRangeChecker(picker, maxNumber, minNumber)) {

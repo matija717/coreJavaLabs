@@ -32,12 +32,12 @@ public class Main {
 
         logger.error("Finding food with most calories!");
         Item mostCalorieItem = foodWithMostCalories(allItems);
-        writeInConsoleWithLogger("Food with most calories is " + mostCalorieItem.getName() +
+        writeInConsoleWithLogger("\nFood with most calories is " + mostCalorieItem.getName() +
                 " with value of " + ((Edible) mostCalorieItem).calculateKilocalories() + " kcal");
 
         logger.error("Finding most expensive food");
         Item expensiveItem = findMostExpensiveItem(allItems);
-        writeInConsoleWithLogger("Most expensive food is " + expensiveItem.getName() +
+        writeInConsoleWithLogger("\nMost expensive food is " + expensiveItem.getName() +
                 " with cost of " + ((Edible) expensiveItem).calculatePrice() + " EUR");
 
         logger.error("Finding cheapest and biggest item");

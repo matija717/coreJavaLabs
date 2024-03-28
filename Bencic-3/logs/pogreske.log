@@ -427,3 +427,5 @@ Please try again!
 2024-03-28 12:11:43,843 ERROR [main] B.p.m.Main [Main.java:29] Finding food with most calories!
 2024-03-28 12:11:43,844 ERROR [main] B.p.m.Main [Main.java:33] Finding most expensive food
 2024-03-28 12:11:43,844 ERROR [main] B.p.m.Main [Main.java:37] Finding cheapest and biggest item
+2024-03-28 12:19:10,018 ERROR [main] B.p.m.Main [LoggerMethods.java:16] Program startup
+2024-03-28 12:19:10,057 ERROR [main] B.p.m.Main [InputMethods.java:49] User is writing categories input

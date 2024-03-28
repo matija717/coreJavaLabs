@@ -60,7 +60,7 @@ public class ItemDataFilterSearchUtil {
                 .filter(Technical.class::isInstance)
                 .collect(Collectors.toList());
         if (!allItems.isEmpty()) allItems.sort(new ProductionSorter());
-        return "Most cheapest item within Edibles is "
+        return "\nMost cheapest item within Edibles is "
                 .concat(allItems.getFirst().getName())
                 .concat(" and most expensive item is ")
                 .concat(allItems.getLast().getName());
@@ -72,7 +72,7 @@ public class ItemDataFilterSearchUtil {
                 .filter(Edible.class::isInstance)
                 .collect(Collectors.toList());
         if (!allItems.isEmpty()) allItems.sort(new ProductionSorter());
-        return "Most cheapest item within Edibles is "
+        return "\nMost cheapest item within Edibles is "
                 .concat(allItems.getFirst().getName())
                 .concat(" and most expensive item is ")
                 .concat(allItems.getLast().getName());
@@ -119,10 +119,9 @@ public class ItemDataFilterSearchUtil {
                 .flatMap(f -> f.getItems()
                         .stream())
                 .max(Comparator.comparing(Item::volumeOfItemCalculation));
-        if (biggestItem.isPresent()) {
-            return biggestItem.get().getName();
-        } else {
-            return "No items found";
-        }
+        return biggestItem.map(item -> "\nBiggest item in among factories is "
+                .concat(item.getName())
+                .concat("with volume of ")
+                .concat(item.volumeOfItemCalculation().toString())).orElse("No items found");
     }
 }

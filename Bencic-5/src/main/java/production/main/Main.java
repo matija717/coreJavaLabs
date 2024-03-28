@@ -43,7 +43,7 @@ public class Main {
         normalSortingStoresAboveAverageItemNumber(stores);
 
         logger.info("Sorting items with discount");
-        Optional<List<Item>>sortedItems=sortingItemsWithDiscountOut(allItems);
+        Optional<List<Item>> sortedItems = sortingItemsWithDiscountOut(allItems);
         sortedItems.ifPresent(PrintUtil::printOutItemsWithDiscount);
         printNumberOfItemsInStores(stores);
 
@@ -51,14 +51,10 @@ public class Main {
         writeInConsoleWithLogger(findLaptopWithLongestGuaranteeValue(allItems));
 
         logger.error("Finding food with most calories!");
-        Item mostCalorieItem = foodWithMostCalories(allItems);
-        writeInConsoleWithLogger("Food with most calories is " + mostCalorieItem.getName() +
-                " with value of " + ((Edible) mostCalorieItem).calculateKilocalories() + " kcal");
+        writeInConsoleWithLogger(foodWithMostCalories(allItems));
 
         logger.error("Finding most expensive food");
-        Item expensiveItem = findMostExpensiveItem(allItems);
-        writeInConsoleWithLogger("Most expensive food is " + expensiveItem.getName() +
-                " with cost of " + ((Edible) expensiveItem).calculatePrice() + " EUR");
+        writeInConsoleWithLogger(findMostExpensiveEdibleItem(allItems));
 
         logger.error("Finding cheapest and biggest item");
         cheapestAndMostExpensiveItemPerCategory(categories, allItems);

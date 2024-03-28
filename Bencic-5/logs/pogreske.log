@@ -277,3 +277,33 @@ Please try to pick different item!
 2024-03-27 17:08:54,458 ERROR [main] B.p.m.Main [Main.java:51] Finding food with most calories!
 2024-03-27 17:08:54,458 ERROR [main] B.p.m.Main [Main.java:56] Finding most expensive food
 2024-03-27 17:08:54,458 ERROR [main] B.p.m.Main [Main.java:61] Finding cheapest and biggest item
+2024-03-28 13:18:29,387 ERROR [main] B.p.m.Main [Main.java:26] Program startup
+2024-03-28 13:18:29,453 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 13:18:31,799 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:19:11,244 ERROR [main] B.p.m.Main [Main.java:26] Program startup
+2024-03-28 13:19:11,298 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 13:19:13,206 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:19:14,549 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:19:15,800 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:19:16,242 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 13:19:20,954 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 13:20:39,798 ERROR [main] B.p.m.Main [Main.java:26] Program startup
+2024-03-28 13:20:39,831 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 13:20:41,824 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:20:43,279 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:20:44,376 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:20:44,888 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 13:21:40,793 ERROR [main] B.p.m.Main [Main.java:26] Program startup
+2024-03-28 13:21:40,858 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 13:21:42,981 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:21:44,321 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:21:45,652 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:21:46,030 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 13:21:48,600 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 13:22:16,560 ERROR [main] B.p.m.Main [Main.java:26] Program startup
+2024-03-28 13:22:16,615 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 13:22:18,435 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:22:19,652 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:22:20,718 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
+2024-03-28 13:22:21,034 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
+2024-03-28 13:22:22,524 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!

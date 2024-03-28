@@ -18,35 +18,32 @@ public class ItemsInputUtil {
     public static List<Item> articlesSelectionInput(Scanner scanner, List<Category> categories) {
         List<Item> items = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_ITEMS; i++) {
-            writeInConsoleWithLogger("\n"+(i + 1) + ". item choose lap");
-            String message="Choose edibles(1) or (normal item or laptop) (2) to input:";
-            int edibleOrNonEdiblePicker = integerInputMismatchChecker(scanner,message
-                    ,1,2);
-            scanner.nextLine();
+            writeInConsoleWithLogger("\n" + (i + 1) + ". item choose lap");
+            String message = "\nChoose edibles(1) or (normal item or laptop) (2) to input:";
+            int edibleOrNonEdiblePicker = integerInputMismatchChecker(scanner, message
+                    , 1, 2);
             String input = ". input!";
             if (edibleOrNonEdiblePicker == 1) {
-                message="Chose between (1)" + Banana.class.getSimpleName() +
+                message = "Chose between (1)" + Banana.class.getSimpleName() +
                         " or (2)" + Kiwi.class.getSimpleName() + ": ";
-                int pickerBetweenBananasAndKiwis = integerInputMismatchChecker(scanner,message
-                        ,1,2);
-                scanner.nextLine();
+                int pickerBetweenBananasAndKiwis = integerInputMismatchChecker(scanner, message
+                        , 1, 2);
                 if (pickerBetweenBananasAndKiwis == 1) {
-                    writeInConsoleWithLogger("\nBanana picked up for " + (i + 1) + input);
+                    writeInConsoleWithLogger("Banana picked up for " + (i + 1) + input);
                     items.add(bananaInput(categories, scanner));
                 } else if (pickerBetweenBananasAndKiwis == 2) {
-                    writeInConsoleWithLogger("\nKiwi picked up for " + (i + 1) + input);
+                    writeInConsoleWithLogger("Kiwi picked up for " + (i + 1) + input);
                     items.add(kiwiInput(categories, scanner));
                 }
             } else if (edibleOrNonEdiblePicker == 2) {
-                message="Choose normal items(1) or laptops(2) to input:";
-                int pickerBetweenNormalItemAndLaptop = integerInputMismatchChecker(scanner,message
-                        ,1,2);
-                scanner.nextLine();
+                message = "Choose normal items(1) or laptops(2) to input:";
+                int pickerBetweenNormalItemAndLaptop = integerInputMismatchChecker(scanner, message
+                        , 1, 2);
                 if (pickerBetweenNormalItemAndLaptop == 1) {
-                    writeInConsoleWithLogger("\nNormal item picked up for " + (i + 1) + input);
+                    writeInConsoleWithLogger("Normal item picked up for " + (i + 1) + input);
                     items.add(singleItemInput(scanner, categories));
                 } else if (pickerBetweenNormalItemAndLaptop == 2) {
-                    writeInConsoleWithLogger("\nLaptop picked up for " + (i + 1) + input);
+                    writeInConsoleWithLogger("Laptop picked up for " + (i + 1) + input);
                     items.add(laptopInput(categories, scanner));
                 }
             }
@@ -56,13 +53,13 @@ public class ItemsInputUtil {
 
     private static Kiwi kiwiInput(List<Category> categories, Scanner scanner) {
         Item item = singleItemInput(scanner, categories);
-        writeInConsoleWithLogger("Type weight of your chosen item(kg):");
-        BigDecimal weight = bigDecimalInputMismatchChecker(scanner,"\nWeight:");
+        String message="Type weight of your chosen item(kg):";
+        BigDecimal weight = bigDecimalInputMismatchChecker(scanner,message);
 
         Kiwi kiwi = new Kiwi(item.getName(), item.getObject()
                 , item.getWidth(), item.getHeight(), item.getLength(),
                 item.getProductionCost(), item.getSellingPrice(), weight, item.getDiscountAmount());
-        writeInConsoleWithLogger("\nInput kiwi count costs " + kiwi.calculatePrice() + " EUR");
+        writeInConsoleWithLogger("Input kiwi count costs " + kiwi.calculatePrice() + " EUR");
         writeInConsoleWithLogger("\nInput kiwi has " + kiwi.calculateKilocalories() + " kcal");
         return kiwi;
     }
@@ -75,7 +72,7 @@ public class ItemsInputUtil {
         Banana banana = new Banana(item.getName(), item.getObject()
                 , item.getWidth(), item.getHeight(), item.getLength(),
                 item.getProductionCost(), item.getSellingPrice(), weight, item.getDiscountAmount());
-        writeInConsoleWithLogger("\nInput banana item cost you " + banana.calculatePrice() + " EUR");
+        writeInConsoleWithLogger("Input banana item cost you " + banana.calculatePrice() + " EUR");
         writeInConsoleWithLogger("\nInput banana item has " + banana.calculateKilocalories() + " kcal");
         return banana;
     }
@@ -89,7 +86,7 @@ public class ItemsInputUtil {
                 , item.getWidth(), item.getHeight(), item.getLength(),
                 item.getProductionCost(), item.getSellingPrice(), item.getDiscountAmount(), guarantee);
 
-        writeInConsoleWithLogger("\nPrice of laptop with discount is:" + laptop.getSellingPrice());
+        writeInConsoleWithLogger("Price of laptop with discount is:" + laptop.getSellingPrice());
         return laptop;
     }
 

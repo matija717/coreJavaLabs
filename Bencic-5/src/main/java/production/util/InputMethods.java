@@ -23,11 +23,11 @@ public class InputMethods {
         logger.error("Input item!");
         consoleLogger.info("\nName:");
         String name = scanner.nextLine();
-        writeInConsoleWithLogger("\nPick category from 1 to " + categories.size());
+        writeInConsoleWithLogger("Pick category from 1 to " + categories.size());
         for (int j = 0; j < categories.size(); j++) {
             writeInConsoleWithLogger("\n"+(j + 1) + ".category:  " + categories.get(j).getName());
         }
-        String messageForInput = "Pick:";
+        String messageForInput = "\nPick:";
         int categoryPick = integerInputMismatchChecker(scanner, messageForInput,
                 1, categories.size()) - 1;
         messageForInput = "Width:";
@@ -54,7 +54,8 @@ public class InputMethods {
         writeInConsoleWithLogger("Categories input!");
         List<Category> categories = new ArrayList<>();
         for (int i = 0; i < NUMBER_OF_CATEGORIES; i++) {
-            writeInConsoleWithLogger("\n" + String.valueOf(i + 1).concat(".category"));
+            if(i==0)writeInConsoleWithLogger("\n");
+            writeInConsoleWithLogger(String.valueOf(i + 1).concat(".category"));
             categories.add(inputCategory(scanner, categories));
         }
         logger.error("Categories input done!");

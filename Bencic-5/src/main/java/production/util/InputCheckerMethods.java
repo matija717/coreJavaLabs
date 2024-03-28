@@ -57,8 +57,9 @@ public class InputCheckerMethods {
         Integer picker = null;
         do {
             try {
-                writeInConsoleWithLogger("\n" + message);
+                writeInConsoleWithLogger(message);
                 picker = scanner.nextInt();
+                scanner.nextLine();
                 if (!integerInRangeChecker(picker, maxNumber, minNumber)) {
                     continueLoop = false;
                 } else {
