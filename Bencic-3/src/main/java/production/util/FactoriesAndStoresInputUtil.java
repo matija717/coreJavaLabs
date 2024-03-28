@@ -19,18 +19,18 @@ public class FactoriesAndStoresInputUtil {
 
     public static Store[] storesInput(Scanner scanner, Item[] items) {
         logger.error("Store input!");
-        consoleLogger.info("Stores input!");
+        consoleLogger.info("\nStores input!");
         Store[] stores = new Store[NUMBER_OF_STORES];
         for (int i = 0; i < stores.length; i++) {
+            if(i==0)writeInConsoleWithLogger("\n");
             writeInConsoleWithLogger((i + 1) + ". store");
             stores[i] = singleStoreInput(scanner, items);
-
         }
         return stores;
     }
     private static Store singleStoreInput(Scanner scanner, Item[] items) {
         logger.error("Data for store!");
-        consoleLogger.info("Name:");
+        consoleLogger.info("\nName:");
         String name = scanner.nextLine();
         consoleLogger.info("Web address:");
         String webAddress = scanner.nextLine();
@@ -42,7 +42,7 @@ public class FactoriesAndStoresInputUtil {
         return new Store(name, webAddress, itemPicker(items, storeItems, scanner));
     }
     public static Address addressInput(Scanner scanner) {
-        consoleLogger.info("Street: ");
+        consoleLogger.info("\nStreet: ");
         String street = scanner.nextLine();
         consoleLogger.info("House number: ");
         String houseNumber = scanner.nextLine();
@@ -55,9 +55,10 @@ public class FactoriesAndStoresInputUtil {
     }
     public static Factory[] factoriesInput(Scanner scanner, Item[] items) {
         logger.error("Factories input!");
-        consoleLogger.info("Factories input!");
+        consoleLogger.info("\nFactories input!");
         Factory[] factories = new Factory[NUMBER_OF_FACTORIES];
         for (int i = 0; i < factories.length; i++) {
+            if(i==0)writeInConsoleWithLogger("\n");
             writeInConsoleWithLogger((i + 1) + ". factory");
             factories[i] = singleFactoryInput(scanner, items);
 
@@ -66,7 +67,7 @@ public class FactoriesAndStoresInputUtil {
     }
     private static Factory singleFactoryInput(Scanner scanner, Item[] items) {
         logger.error("Data for factory input!");
-        consoleLogger.info("Name: ");
+        consoleLogger.info("\nName: ");
         String name = scanner.nextLine();
         consoleLogger.info("Address input!");
         Address address = addressInput(scanner);

@@ -19,7 +19,6 @@ public class Main {
     public static final Logger logger = LoggerFactory.getLogger("Bencic-3.production.main.Main");
     public static void main(String[] args) {
         writeInFIleWithLogger("Program startup");
-        logger.info("Yea");
         Scanner scanner = new Scanner(System.in);
         Category[] categories = categoriesInput(scanner);
         Item[] allItems = articlesSelectionInput(scanner, categories);
@@ -29,16 +28,16 @@ public class Main {
         writeInConsoleWithLogger(findLaptopWithLongestGuaranteeValue(allItems));
         logger.error("Finding food with most calories!");
         Item mostCalorieItem = foodWithMostCalories(allItems);
-        writeInConsoleWithLogger("Food with most calories is " + mostCalorieItem.getName() +
+        writeInConsoleWithLogger("\nFood with most calories is " + mostCalorieItem.getName() +
                 " with value of " + ((Edible) mostCalorieItem).calculateKilocalories() + " kcal");
         logger.error("Finding most expensive food");
         Item expensiveItem = findMostExpensiveItem(allItems);
-        writeInConsoleWithLogger("Most expensive food is " + expensiveItem.getName() +
+        writeInConsoleWithLogger("\nMost expensive food is " + expensiveItem.getName() +
                 " with cost of " + ((Edible) expensiveItem).calculatePrice() + " EUR");
         logger.error("Finding cheapest and biggest item");
         Item cheapestItem = findCheapestItem(stores);
         Item biggestItem = findBiggestItem(factories);
-        writeInConsoleWithLogger("Article with biggest volume is " + biggestItem.getName());
-        writeInConsoleWithLogger("Article with cheapest price is " + cheapestItem.getName());
+        writeInConsoleWithLogger("\nArticle with biggest volume is " + biggestItem.getName());
+        writeInConsoleWithLogger("\nArticle with cheapest price is " + cheapestItem.getName());
     }
 }

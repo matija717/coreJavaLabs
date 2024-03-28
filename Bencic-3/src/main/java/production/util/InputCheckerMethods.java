@@ -21,7 +21,7 @@ public class InputCheckerMethods {
         for (Category category : categories) {
             if (category != null && category.getDescription().equals(description)) {
                 logger.error("Same description input error");
-                throw new SameFileErrror("Same description error\nPlease try again!");
+                throw new SameFileErrror("Same description error\nPlease try again!\n");
 
             }
         }
@@ -50,24 +50,24 @@ public class InputCheckerMethods {
     }
 
     public static int integerInputMismatchChecker(Scanner scanner, String message, Integer minNumber, Integer maxNumber) {
-        logger.info("Checking if input integer is right and in range");
+        logger.error("Checking if input integer is right and in range");
         boolean continueLoop;
         Integer picker = null;
         do {
             try {
-                writeInConsoleWithLogger("\n" + message);
+                writeInConsoleWithLogger(message);
                 picker = scanner.nextInt();
                 scanner.nextLine();
                 if (!integerInRangeChecker(picker, maxNumber, minNumber)) {
                     continueLoop = false;
                 } else {
-                    writeInConsoleWithLogger("Please insert number which is right!");
+                    writeInConsoleWithLogger("Please insert number which is right!\n");
                     logger.error("Wrong number input!");
                     continueLoop = true;
                 }
             } catch (InputMismatchException ex) {
                 logger.error("Wrong data input!");
-                writeInConsoleWithLogger("Please input numeric data!");
+                writeInConsoleWithLogger("Please input numeric data!\n");
                 scanner.nextLine();
                 continueLoop = true;
             }

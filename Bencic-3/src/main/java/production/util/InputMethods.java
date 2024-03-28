@@ -22,9 +22,9 @@ public class InputMethods {
         String name = scanner.nextLine();
         writeInConsoleWithLogger("Pick category from 1 to " + categories.length);
         for (int j = 0; j < categories.length; j++) {
-            writeInConsoleWithLogger((j + 1) + ". " + categories[j].getName());
+            writeInConsoleWithLogger("\n"+(j + 1) + ". " + categories[j].getName());
         }
-        String messageForInput = "Pick:";
+        String messageForInput = "\nPick:";
         int categoryPick = integerInputMismatchChecker(scanner, messageForInput,
                 1, categories.length) - 1;
         messageForInput = "Width:";
@@ -50,7 +50,8 @@ public class InputMethods {
          writeInConsoleWithLogger("Categories input!");
         Category[] categories = new Category[NUMBER_OF_CATEGORIES];
         for (int i = 0; i < NUMBER_OF_CATEGORIES; i++) {
-            writeInConsoleWithLogger("\n"+String.valueOf(i+1).concat(".category"));
+            if(i==0)writeInConsoleWithLogger("\n");
+            writeInConsoleWithLogger(String.valueOf(i+1).concat(".category"));
             categories[i] = inputCategory(scanner,categories);
         }
         logger.error("Categories input done!");
@@ -79,11 +80,10 @@ public class InputMethods {
         String description="";
         do {
             try {
-                writeInConsoleWithLogger("\nDescription:");
+                writeInConsoleWithLogger("Description:");
                 description = scanner.nextLine();
                 continueLoop = sameCategoryDescriptionInput(description, categories);
             } catch (SameFileErrror ex) {
-                consoleLogger.info("\nSame description input error");
                 writeInConsoleWithLogger("\n"+ex.getMessage());
                 logger.error(ex.getMessage());
                 continueLoop=true;

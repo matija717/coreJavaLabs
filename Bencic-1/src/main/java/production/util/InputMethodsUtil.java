@@ -64,7 +64,6 @@ public class InputMethodsUtil {
             scanner.nextLine();
             if (integerChecker(itemNumber, items.length)) System.out.println("Error!\nPlease type again!");
         } while (integerChecker(itemNumber, items.length));
-        scanner.nextLine();
         Item[] storeItems = new Item[itemNumber];
 
         return new Store(name, webAddress, itemPicker(items, storeItems, scanner));
@@ -75,10 +74,10 @@ public class InputMethodsUtil {
             for (int j = 0; j < items.length; j++) {
                 System.out.println((j + 1) + ". " + items[j].getName());
             }
-            System.out.print("Pick(1-" + (items.length + 1) + "): ");
+            System.out.print("Pick(1-" + (items.length) + "): ");
             pick = scanner.nextInt();
             scanner.nextLine();
-            pickedItems[i] = items[pick];
+            pickedItems[i] = items[pick-1];
         }
         return pickedItems;
     }

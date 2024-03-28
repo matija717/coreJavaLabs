@@ -2,8 +2,6 @@ package production.main;
 
 import production.model.*;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
 import java.util.Scanner;
 
 import static production.util.CartUtil.cartPrint;
@@ -30,7 +28,13 @@ public class Main {
         Item cheapestItem = findCheapestItem(stores);
         Item biggestItem = findBiggestItem(factories);
 
-        System.out.println("Article with biggest volume is " + biggestItem.getName());
-        System.out.println("Article with cheapest price is " + cheapestItem.getName());
+        System.out.println("Article with biggest volume is "
+                .concat(biggestItem.getName())
+                .concat(" with volume:")
+                .concat(biggestItem.volumeOfItemCalculation().toString()));
+        System.out.println("Article with cheapest price is "
+                .concat(cheapestItem.getName())
+                .concat(" with price:")
+                .concat(biggestItem.getSellingPrice().toString()));
     }
 }

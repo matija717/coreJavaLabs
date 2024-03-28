@@ -39,11 +39,8 @@ public class StoreAndFactoryInputUtils {
 
     private static Store singleStoreInput(Scanner scanner, Item[] items) {
         int itemNumber;
-
         System.out.print("Name:");
         String name = scanner.nextLine();
-
-
         System.out.print("Web address:");
         String webAddress = scanner.nextLine();
 
@@ -53,7 +50,6 @@ public class StoreAndFactoryInputUtils {
             scanner.nextLine();
             if (integerChecker(itemNumber, items.length)) System.out.println("Error!\nPlease type again!");
         } while (integerChecker(itemNumber, items.length));
-        scanner.nextLine();
         Item[] storeItems = new Item[itemNumber];
         System.out.print("Input identifier:");
         int identifier = scanner.nextInt();

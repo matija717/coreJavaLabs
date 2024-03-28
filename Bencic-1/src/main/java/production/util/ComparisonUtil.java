@@ -13,7 +13,7 @@ public class ComparisonUtil {
                     cheapestItem = s.getItems()[i];
                 } else if (s.getItems()[i].getSellingPrice()
                         .compareTo(cheapestItem.getSellingPrice()) < 0) {
-                    cheapestItem = s.getItems()[i];
+                    cheapestItem = getItemFromArray(s.getItems(), i);
                 }
             }
         }
@@ -21,16 +21,19 @@ public class ComparisonUtil {
     }
     public static Item findBiggestItem(Factory[] factories) {
         Item biggestItem = factories[0].getItems()[0];
-        for (Factory s : factories) {
-            for (int i = 0; i < s.getItems().length; i++) {
-                if (s.getItems()[0].equals(s.getItems()[i])) {
-                    biggestItem = s.getItems()[i];
-                } else if (biggestItem.volumeOfItemCalculation(biggestItem).
-                        compareTo(s.getItems()[i].volumeOfItemCalculation(s.getItems()[i])) < 0) {
-                    biggestItem = s.getItems()[i];
+        for (Factory f : factories) {
+            for (int i = 0; i < f.getItems().length; i++) {
+                if (f.getItems()[0].equals(f.getItems()[i])) {
+                    biggestItem = f.getItems()[i];
+                } else if (biggestItem.volumeOfItemCalculation().
+                        compareTo(f.getItems()[i].volumeOfItemCalculation()) < 0) {
+                    biggestItem = getItemFromArray(f.getItems(), i);
                 }
             }
         }
         return biggestItem;
+    }
+    private static Item getItemFromArray(Item[] items, int i){
+        return items[i];
     }
 }

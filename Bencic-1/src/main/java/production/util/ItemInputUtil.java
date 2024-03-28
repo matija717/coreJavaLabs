@@ -10,13 +10,12 @@ import static production.util.CheckerMethodUtil.bigDecimalChecker;
 import static production.util.CheckerMethodUtil.integerChecker;
 
 public class ItemInputUtil {
-    private static final Integer NUMBER_OF_ITEMS = 2;
+    private static final Integer NUMBER_OF_ITEMS = 3;
 
 
     public static Item[] itemsInput(Scanner scanner, Category[] categories) {
         System.out.println("Items input!");
         Item[] items = new Item[NUMBER_OF_ITEMS];
-        System.out.println("Type date and time of buying:");
         for (int i = 0; i < items.length; i++) {
             System.out.println((i + 1) + ". item");
             items[i] = singleItemInput(scanner, categories);

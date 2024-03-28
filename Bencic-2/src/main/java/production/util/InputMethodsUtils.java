@@ -28,12 +28,11 @@ public class InputMethodsUtils {
             for (int j = 0; j < items.length; j++) {
                 System.out.println((j + 1) + ". " + items[j].getName());
             }
-            System.out.print("Pick(1-" + (items.length + 1) + "): ");
+            System.out.print("Pick(1-" + (items.length) + "): ");
             pick = scanner.nextInt();
             scanner.nextLine();
-            pickedItems[i] = items[pick];
+            pickedItems[i] = items[pick-1];
         }
         return pickedItems;
     }
-
 }
