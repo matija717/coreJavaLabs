@@ -4,5 +4,6 @@ module hr.java.shop.bencic7 {
 
 
     opens hr.java.shop.bencic7 to javafx.fxml;
-    exports hr.java.shop.bencic7;
+    exports hr.java.shop.bencic7.controllers;
+    opens hr.java.shop.bencic7.controllers to javafx.fxml;
 }

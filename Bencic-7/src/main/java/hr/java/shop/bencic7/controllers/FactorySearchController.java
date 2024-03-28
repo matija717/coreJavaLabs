@@ -1,9 +1,7 @@
-package hr.java.shop.bencic7;
+package hr.java.shop.bencic7.controllers;
 
 import hr.java.shop.bencic7.production.model.Address;
 import hr.java.shop.bencic7.production.model.Factory;
-import hr.java.shop.bencic7.utils.FileUtils;
-import javafx.beans.binding.Bindings;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -15,6 +13,9 @@ import javafx.scene.control.TextField;
 
 import java.util.List;
 import java.util.Optional;
+
+import static hr.java.shop.bencic7.utils.FactoriesAndStoresReaderUtil.addressInput;
+import static hr.java.shop.bencic7.utils.FactoriesAndStoresReaderUtil.allFactories;
 
 public class FactorySearchController {
     @FXML
@@ -28,7 +29,7 @@ public class FactorySearchController {
     @FXML
     private TableColumn<Factory,String> cityOfFactoryTableColumn;
     @FXML
-    private TableColumn<Factory,Integer> numberOfItemsTableColumn;
+    private TableColumn<Factory,String> numberOfItemsTableColumn;
     public void initialize(){
         factoryNameTableColumn.setCellValueFactory(cellData ->
                 new SimpleStringProperty(cellData.getValue().getName()));
@@ -36,15 +37,15 @@ public class FactorySearchController {
                 new SimpleStringProperty(cellData.getValue().getAddress().getCity().getCityName()));
 
         numberOfItemsTableColumn.setCellValueFactory(cellData -> {
-            Integer size = cellData.getValue().getItems().size();
-            return Bindings.createIntegerBinding(() -> size).asObject();
+            int size = cellData.getValue().getItems().size();
+            return new SimpleStringProperty(Integer.toString(size));
         });
         initializeCityChoiceBox();
 
     }
 
     private void initializeCityChoiceBox() {
-        List<Address> addressList=FileUtils.addressInput();
+        List<Address> addressList=addressInput();
         ObservableList<String> observableList=FXCollections.observableArrayList(addressList
                 .stream()
                 .map(a->a.getCity().getCityName())
@@ -53,7 +54,7 @@ public class FactorySearchController {
     }
 
     public void searchFactories(){
-        List<Factory> factories= FileUtils.allFactories();
+        List<Factory> factories= allFactories();
         if(Optional.ofNullable(factoryNameTextField.getText()).isPresent()){
             factories=factories.stream()
                     .filter(f->f.getName().contains(factoryNameTextField.getText()))

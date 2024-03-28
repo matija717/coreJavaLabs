@@ -1,7 +1,6 @@
-package hr.java.shop.bencic7;
+package hr.java.shop.bencic7.controllers;
 
 import hr.java.shop.bencic7.production.model.Category;
-import hr.java.shop.bencic7.utils.FileUtils;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -12,6 +11,8 @@ import javafx.scene.control.TextField;
 
 import java.util.List;
 import java.util.Optional;
+
+import static hr.java.shop.bencic7.utils.CategoriesAndItemsInputUtil.categoriesViaFileInput;
 
 public class CategorySearchController {
     @FXML
@@ -33,7 +34,7 @@ public class CategorySearchController {
     }
 
     public void searchCategories() {
-        List<Category> categoryList = FileUtils.categoriesViaFileInput();
+        List<Category> categoryList = categoriesViaFileInput();
         if (Optional.ofNullable(categoryNameTextField.getText()).isPresent()) {
             categoryList = categoryList.stream()
                     .filter(c -> c.getName().contains(categoryNameTextField.getText()))

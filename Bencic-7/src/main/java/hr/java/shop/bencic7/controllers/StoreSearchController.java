@@ -1,7 +1,7 @@
-package hr.java.shop.bencic7;
+package hr.java.shop.bencic7.controllers;
 
 import hr.java.shop.bencic7.production.model.Store;
-import hr.java.shop.bencic7.utils.FileUtils;
+import hr.java.shop.bencic7.utils.FactoriesAndStoresReaderUtil;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -33,7 +33,7 @@ public class StoreSearchController {
     }
 
     public void searchStores() {
-        List<Store> stores = FileUtils.storesInput();
+        List<Store> stores = FactoriesAndStoresReaderUtil.storesInput();
         if (Optional.ofNullable(storeNameTextField.getText()).isPresent()) {
             stores = stores.stream()
                     .filter(s -> s.getName().contains(storeNameTextField.getText()))

@@ -1,9 +1,9 @@
-package hr.java.shop.bencic7;
+package hr.java.shop.bencic7.controllers;
 
 import hr.java.shop.bencic7.production.model.Category;
 import hr.java.shop.bencic7.production.model.Item;
 import hr.java.shop.bencic7.production.model.NamedEntity;
-import hr.java.shop.bencic7.utils.FileUtils;
+import hr.java.shop.bencic7.utils.CategoriesAndItemsInputUtil;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
@@ -56,7 +56,7 @@ public class ItemSearchController {
     }
 
     private void initializeCategoryChoiceBox() {
-        List<Category> categories = FileUtils.categoriesViaFileInput();
+        List<Category> categories = CategoriesAndItemsInputUtil.categoriesViaFileInput();
         ObservableList<String> categoriesList = FXCollections
                 .observableArrayList(categories
                         .stream()
@@ -66,7 +66,7 @@ public class ItemSearchController {
     }
 
     public void searchItems() {
-        List<Item> itemList = FileUtils.allItems(FileUtils.categoriesViaFileInput());
+        List<Item> itemList = CategoriesAndItemsInputUtil.allItems(CategoriesAndItemsInputUtil.categoriesViaFileInput());
         if (Optional.ofNullable(itemNameTextField.getText()).isPresent()) {
             itemList = itemList.stream()
                     .filter(i -> i.getName().contains(itemNameTextField.getText()))

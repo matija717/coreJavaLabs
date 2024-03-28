@@ -5,4 +5,4 @@ ZLATAR
 2
 Druga tvornica
 ZAGREB
-4,5,8,9
+4,5,8,9,2

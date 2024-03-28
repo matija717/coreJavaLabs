@@ -393,3 +393,8 @@ Please try to pick different item!
 2024-03-28 21:05:26,835 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
 2024-03-28 21:05:26,839 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
 2024-03-28 21:05:26,842 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 21:38:53,860 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 21:38:54,091 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 21:38:54,116 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 21:38:54,120 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 21:38:54,122 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item

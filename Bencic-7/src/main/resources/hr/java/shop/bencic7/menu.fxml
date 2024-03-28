@@ -5,7 +5,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="50.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.shop.bencic7.MenuController">
+<AnchorPane prefHeight="50.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.shop.bencic7.controllers.MenuController">
     <MenuBar prefHeight="50.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <menus>
             <Menu mnemonicParsing="false" text="Category">
@@ -28,11 +28,6 @@
                     <MenuItem mnemonicParsing="false" onAction="#showStoreSearchScreen" text="Search" />
                 </items>
             </Menu>
-         <Menu mnemonicParsing="false" text="Buyers">
-            <items>
-               <MenuItem mnemonicParsing="false" onAction="#showBuyersSearchScreen" text="Search" />
-            </items>
-         </Menu>
         </menus>
     </MenuBar>
 </AnchorPane>

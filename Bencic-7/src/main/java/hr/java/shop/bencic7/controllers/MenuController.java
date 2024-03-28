@@ -1,4 +1,4 @@
-package hr.java.shop.bencic7;
+package hr.java.shop.bencic7.controllers;
 
 import hr.java.shop.bencic7.production.exception.SceneLoadException;
 import javafx.fxml.FXMLLoader;
@@ -7,13 +7,12 @@ import javafx.scene.Scene;
 import java.io.IOException;
 
 public class MenuController {
-    public void showItemSearchScreen() {sceneSetter("itemSearchScreen.fxml");}
+    public void showItemSearchScreen() {sceneSetter("/hr/java/shop/bencic7/itemSearchScreen.fxml");}
     public void showCategorySearchScreen(){
-        sceneSetter("categorySearchScreen.fxml");
+        sceneSetter("/hr/java/shop/bencic7/categorySearchScreen.fxml");
     }
-    public void showFactorySearchScreen(){sceneSetter("factorySearchScreen.fxml");}
-    public void showStoreSearchScreen(){sceneSetter("storeSearchController.fxml");}
-    public void showBuyersSearchScreen(){sceneSetter("buyersSearchController.fxml");}
+    public void showFactorySearchScreen(){sceneSetter("/hr/java/shop/bencic7/factorySearchScreen.fxml");}
+    public void showStoreSearchScreen(){sceneSetter("/hr/java/shop/bencic7/storeSearchController.fxml");}
     private void sceneSetter(String name)throws SceneLoadException{
         FXMLLoader fxmlLoader = new FXMLLoader(ProductionApplication.class.getResource(name));
         Scene scene;
