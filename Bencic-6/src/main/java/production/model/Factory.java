@@ -1,22 +1,14 @@
 package production.model;
 
+
+import java.io.Serializable;
 import java.util.Set;
 
-/**
- * The Factory class represents a manufacturing facility with a name, address, and a list of items produced.
- */
-public class Factory extends NamedEntity {
+public class Factory extends NamedEntity implements Serializable {
 
-    private Address address;
-    private Set<Item> items;
+    private final Address address;
+    private final Set<Item> items;
 
-    /**
-     * Creates a new Factory object with the provided details.
-     *
-     * @param name    The name of the factory.
-     * @param address The physical address of the factory.
-     * @param items   An array of items produced by the factory.
-     */
     public Factory(String name, Long id, Address address, Set<Item> items) {
         super(name, id);
         this.address = address;
@@ -28,12 +20,14 @@ public class Factory extends NamedEntity {
         return address;
     }
 
-    public void setAddress(Address address) {
-        this.address = address;
-    }
 
     public Set<Item> getItems() {
         return items;
+    }
+
+    @Override
+    public String toString() {
+        return "Factory name: " + getName();
     }
 
     @Override

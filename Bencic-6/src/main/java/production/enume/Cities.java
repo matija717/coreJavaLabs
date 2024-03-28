@@ -7,8 +7,8 @@ public enum Cities {
     KRAPINA("49000","KRAPINA"),
     SPLIT("21000","SPLIT");
 
-    private String postalCode;
-    private String city;
+    private final String postalCode;
+    private final String city;
 
     private Cities(String postalCode, String city) {
 

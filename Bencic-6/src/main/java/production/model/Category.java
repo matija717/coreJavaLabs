@@ -1,19 +1,11 @@
 package production.model;
 
-/**
- * The Category class represents a named entity with a description.
- * It is used to categorize items or objects.
- */
+
 public class Category extends NamedEntity {
     private String description;
 
-    /**
-     * Creates a new Category object with the provided description and name.
-     *
-     * @param description The description of the category.
-     * @param name        The name of the category.
-     */
-    public Category(String description,Long id, String name) {
+
+    public Category(String description, Long id, String name) {
         super(name,id);
         this.description = description;
 

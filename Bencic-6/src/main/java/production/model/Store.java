@@ -1,24 +1,15 @@
 package production.model;
 
-import java.util.HashSet;
+import java.io.Serializable;
 import java.util.Set;
 
-/**
- * The Store class represents a retail store with a name, web address, and a list of items available for sale.
- */
-public class Store extends NamedEntity {
+
+public class Store extends NamedEntity implements Serializable {
 
     private String webAddress;
-    private Set<Item> items;
+    private transient Set<Item> items;
 
-    /**
-     * Creates a new Store object with the provided details.
-     *
-     * @param name       The name of the store.
-     * @param webAddress The web address or URL of the store.
-     * @param items      An array of items available for sale in the store.
-     */
-    public Store(String name, Long id, String webAddress, Set<Item> items) {
+    public Store(String name,Long id, String webAddress, Set<Item> items) {
         super(name, id);
         this.webAddress = webAddress;
         this.items = items;
@@ -26,7 +17,7 @@ public class Store extends NamedEntity {
 
     @Override
     public String toString() {
-        return "STORE IME : " + getName();
+        return "STORE IME : "+getName();
     }
 
     public String getWebAddress() {
@@ -41,7 +32,7 @@ public class Store extends NamedEntity {
         return items;
     }
 
-    public void setItems(HashSet<Item> items) {
+    public void setItems(Set<Item> items) {
         this.items = items;
     }
 

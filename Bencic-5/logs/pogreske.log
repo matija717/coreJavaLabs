@@ -307,3 +307,89 @@ Please try to pick different item!
 2024-03-28 13:22:20,718 ERROR [main] B.p.m.Main [InputCheckerMethods.java:33] Now checking for same name error
 2024-03-28 13:22:21,034 ERROR [main] B.p.m.Main [InputMethods.java:61] Categories input done!
 2024-03-28 13:22:22,524 ERROR [main] B.p.m.Main [InputMethods.java:23] Input item!
+2024-03-28 17:16:43,054 ERROR [main] B.p.m.Main [Main.java:26] Program startup
+2024-03-28 17:16:43,113 ERROR [main] B.p.m.Main [InputMethods.java:53] User is writing categories input
+2024-03-28 17:17:02,170 ERROR [main] B.p.m.Main [Main.java:28] Program startup
+2024-03-28 17:17:54,507 ERROR [main] B.p.m.Main [Main.java:28] Program startup
+2024-03-28 17:20:37,312 ERROR [main] B.p.m.Main [Main.java:28] Program startup
+2024-03-28 17:21:50,078 ERROR [main] B.p.m.Main [Main.java:28] Program startup
+2024-03-28 17:22:37,065 ERROR [main] B.p.m.Main [Main.java:28] Program startup
+2024-03-28 17:22:37,225 ERROR [main] B.p.m.Main [Main.java:52] Finding laptop with longest guarantee!
+2024-03-28 17:22:37,230 ERROR [main] B.p.m.Main [Main.java:55] Finding food with most calories!
+2024-03-28 17:22:37,235 ERROR [main] B.p.m.Main [Main.java:58] Finding most expensive food
+2024-03-28 17:22:37,236 ERROR [main] B.p.m.Main [Main.java:61] Finding cheapest and biggest item
+2024-03-28 17:24:14,503 ERROR [main] B.p.m.Main [Main.java:28] Program startup
+2024-03-28 17:24:14,581 ERROR [main] B.p.m.Main [Main.java:52] Finding laptop with longest guarantee!
+2024-03-28 17:24:14,617 ERROR [main] B.p.m.Main [Main.java:55] Finding food with most calories!
+2024-03-28 17:24:14,621 ERROR [main] B.p.m.Main [Main.java:58] Finding most expensive food
+2024-03-28 17:24:14,625 ERROR [main] B.p.m.Main [Main.java:61] Finding cheapest and biggest item
+2024-03-28 17:33:11,665 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:33:11,849 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:33:11,858 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:33:11,864 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:33:11,866 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:34:45,498 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:34:45,633 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:34:45,638 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:34:45,642 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:34:45,645 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:35:59,907 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:35:59,997 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:36:00,001 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:36:00,006 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:36:00,009 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:38:46,607 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:38:46,693 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:38:46,698 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:38:46,703 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:38:46,705 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:39:55,424 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:39:55,571 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:39:55,576 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:39:55,587 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:39:55,589 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:41:09,927 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:41:10,005 ERROR [main] B.p.m.Main [Main.java:52] Finding laptop with longest guarantee!
+2024-03-28 17:41:10,010 ERROR [main] B.p.m.Main [Main.java:55] Finding food with most calories!
+2024-03-28 17:41:10,014 ERROR [main] B.p.m.Main [Main.java:58] Finding most expensive food
+2024-03-28 17:41:10,016 ERROR [main] B.p.m.Main [Main.java:61] Finding cheapest and biggest item
+2024-03-28 17:46:24,373 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:46:24,476 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:46:24,484 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:46:24,490 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:46:24,494 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:47:19,542 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:47:19,622 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:47:19,627 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:47:19,631 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:47:19,633 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:47:47,596 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:47:47,680 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:47:47,685 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:47:47,689 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:47:47,691 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:48:56,746 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:48:56,830 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:48:56,835 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:48:56,839 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:48:56,842 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 17:53:25,769 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 17:53:25,929 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 17:53:25,939 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 17:53:25,947 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 17:53:25,951 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 20:43:25,363 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 20:43:25,476 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 20:43:25,503 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 20:43:25,506 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 20:43:25,508 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 21:04:33,179 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 21:04:33,430 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 21:04:33,453 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 21:04:33,456 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 21:04:33,457 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
+2024-03-28 21:05:26,737 ERROR [main] B.p.m.Main [Main.java:27] Program startup
+2024-03-28 21:05:26,829 ERROR [main] B.p.m.Main [Main.java:51] Finding laptop with longest guarantee!
+2024-03-28 21:05:26,835 ERROR [main] B.p.m.Main [Main.java:54] Finding food with most calories!
+2024-03-28 21:05:26,839 ERROR [main] B.p.m.Main [Main.java:57] Finding most expensive food
+2024-03-28 21:05:26,842 ERROR [main] B.p.m.Main [Main.java:60] Finding cheapest and biggest item
